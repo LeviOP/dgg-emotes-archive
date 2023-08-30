@@ -1,0 +1,11 @@
+{
+    "name": "dgg-emotes-archive",
+    "version": "1.0.0",
+    "main": "archive.js",
+    "scripts": {
+        "archive": "node archive.js"
+    },
+    "type": "module",
+    "author": "LeviOP",
+    "license": "Unlicense"
+}
