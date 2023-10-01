@@ -485,9 +485,9 @@
     top: 7.5px;
 }
 .emote.dggL {
-    background-image: url("6519124009bd5.png");
+    background-image: url("65193333306cb.png");
     height: 32px;
-    width: 736px;
+    width: 768px;
 }
 .msg-chat .emote.dggL {
     margin-top: -32px;
@@ -1016,9 +1016,9 @@
     top: 7.5px;
 }
 .emote.NAHH {
-    background-image: url("636184d7540f4.png");
+    background-image: url("651955aaea656.png");
     height: 32px;
-    width: 19px;
+    width: 24px;
 }
 .msg-chat .emote.NAHH {
     margin-top: -32px;
@@ -2068,6 +2068,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.WEEWOO {
+    background-image: url("6519465c0ae7b.png");
+    height: 30px;
+    width: 33px;
+}
+.msg-chat .emote.WEEWOO {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.AMAZIN {
     width: 53px;
     height: 32px;
@@ -2221,13 +2230,13 @@
 .emote.Aware {
   height: 32px;
   width: 32px;
-  animation: Aware-anim 1.5s steps(54) forwards;
+  animation: Aware-anim 2s steps(54) forwards;
 }
 
 .emote.Aware:hover {
   height: 32px;
   width: 32px;
-  animation: Aware-hover 1.5s steps(54) infinite;
+  animation: Aware-hover 2s steps(54) infinite;
 }
 
 @keyframes Aware-anim {
@@ -2418,9 +2427,29 @@
 .emote.REE + .emote.BLADE {
   filter: hue-rotate(135deg) saturate(3);
 }
-.emote.ApeHands + .emote.BLADE {
-  filter: invert(.95) saturate(0) brightness(2);
+/*
+.emote.ApeHands+.emote.BLADE {
+    filter: invert(.95) saturate(0) brightness(2);
+        filter: hue-rotate(40deg) saturate(5) invert(10) brightness(1);
+
+}*/
+
+.emote.ApeHands+.emote.BLADE {
+    filter: hue-rotate(40deg) saturate(5) grayscale(5) brightness(1);
 }
+
+.emote.nathanPepe+.emote.BLADE {
+    filter: invert(.95) saturate(1) brightness(2);
+}
+
+.emote.nathanYee+.emote.BLADE {
+    filter: grayscale(1) brightness(1) invert(1) sepia(1) saturate(6) hue-rotate(-180deg);
+}
+
+.emote.GIGACHAD+.emote.BLADE {
+    filter: hue-rotate(40deg) saturate(5) brightness(1);
+}
+
 /* rbg */
 @keyframes BLADE-rainbow {
   100% { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(240deg); }
@@ -3498,6 +3527,12 @@
     background-position: -640px;
     background-repeat: no-repeat;
 }
+
+.msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL {
+    background-position: -736px;
+    background-repeat: no-repeat;
+}
+
 
 /*
     COMBO SIZE INCREASE 1-10
@@ -6037,4 +6072,102 @@
 .emote.TRIAD:hover, .emote.LeRuse + .emote.TRIAD:hover {
   background-position: -1936px;
   animation: TRIAD-hover steps(19) 0.6333s infinite; 
+}
+.emote.WEEWOO {
+    background-position: 0px;
+    background-repeat: no-repeat;
+    animation: WEEWOO-anim 1.5s ease-out 3;
+    transition: all 1s;
+}
+
+.emote.WEEWOO:hover {
+    transition: all .5s;
+    animation: WEEWOO-hover 1.5s ease-out infinite;
+}
+
+
+@keyframes WEEWOO-anim {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
+    }
+
+    11% {
+        filter: hue-rotate(170deg)
+    }
+
+    35% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
+    }
+
+    51% {
+        filter: hue-rotate(310deg)
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
+    }
+
+    91% {
+        filter: hue-rotate(0deg)
+    }
+}
+
+@keyframes WEEWOO-hover {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
+    }
+
+    11% {
+        filter: hue-rotate(170deg)
+    }
+
+    35% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
+    }
+
+    51% {
+        filter: hue-rotate(310deg)
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
+    }
+
+    91% {
+        filter: hue-rotate(0deg)
+    }
 }
