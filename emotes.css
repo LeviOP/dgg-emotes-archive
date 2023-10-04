@@ -134,7 +134,7 @@
     top: 7.5px;
 }
 .emote.BINGQILIN {
-    background-image: url("651cee64e2d59.png");
+    background-image: url("616fd6d046091.png");
     height: 32px;
     width: 2880px;
 }
@@ -197,13 +197,13 @@
     top: 7.5px;
 }
 .emote.catJAM {
-    background-image: url("651d0035bfc34.png");
-    height: 32px;
-    width: 6080px;
+    background-image: url("5f9325d81e730.png");
+    height: 30px;
+    width: 7144px;
 }
 .msg-chat .emote.catJAM {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Chatting {
     background-image: url("65191515dc04e.png");
@@ -233,9 +233,9 @@
     top: 7.5px;
 }
 .emote.Clap {
-    background-image: url("651cf8f8cd607.png");
+    background-image: url("5fcdbf43b5737.png");
     height: 32px;
-    width: 96px;
+    width: 44px;
 }
 .msg-chat .emote.Clap {
     margin-top: -32px;
@@ -1853,13 +1853,13 @@
     top: 8px;
 }
 .emote.TeddyPepe {
-    background-image: url("651cf4509afd4.png");
-    height: 34px;
-    width: 1152px;
+    background-image: url("5d9361927b092.png");
+    height: 30px;
+    width: 31px;
 }
 .msg-chat .emote.TeddyPepe {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.TF {
     background-image: url("5f77e7bf4471f.png");
@@ -2397,11 +2397,11 @@
 .emote.BINGQILIN {
   width: 32px;
   background-position: 32px; 
-  animation: BINGQILIN steps(90) 2.5s 4;
+  animation: BINGQILIN steps(90) 3s 1;
 }
 
 .emote.BINGQILIN:hover {
-  animation: BINGQILIN-hover steps(90) 2.5s infinite;
+  animation: BINGQILIN-hover steps(90) 3s infinite;
 }
 @keyframes BLADE {
   0% { background-position: 0px; }
@@ -2622,25 +2622,18 @@
   animation: BoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
 @keyframes catJAM-anim {
-  100% {
-    background-position: -6080px;
-  }
+  100% { background-position: -7144px; }
 }
-
 @keyframes catJAM-hover {
-  100% {
-    background-position: -6080px;
-  }
+  100% { background-position: -7144px; }
 }
 
 .emote.catJAM {
-  width: 32px;
-  height: 32px;
-  animation: catJAM-anim 2 steps(190) 6.5s;
+  width: 38px;
+  animation: catJAM-anim 2 steps(188) 6.5s;
 }
-
 .emote.catJAM:hover {
-  animation: catJAM-hover infinite steps(190) 6.5s;
+  animation: catJAM-hover infinite steps(188) 6.5s;
 }
 /*
 #### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
@@ -3039,87 +3032,50 @@
 
 /* Halloween version made by T9Parker */
 @keyframes Clap-anim {
-  100% {
-    background-position: -96px;
-  }
+  100% { background-position: -44px; }
 }
 
 @keyframes Clap-hover {
-  100% {
-    background-position: -96px;
-  }
+  100% { background-position: -44px; }
 }
 
 .emote.Clap {
-  width: 32px;
-  height: 32px;
-  animation: Clap-anim 350ms steps(3) 10 -150ms;
-  transform: translate(-2px, 4px);
+  width: 22px;
+  animation: Clap-anim 400ms steps(2) 10 -150ms;
 }
-
-.emote.Clap+.emote.Clap,
-.emote.Clap:nth-of-type(1),
-.emote.RapThis+.emote.Clap,
-.emote.BLADE+.emote.Clap,
-.chat-user+.emote.Clap {
-  transform: scale(-1, 1) translate(-2px, 4px);
-  
+.emote.Clap + .emote.Clap, .emote.Clap:nth-of-type(1), .emote.RapThis + .emote.Clap, .emote.BLADE + .emote.Clap, .chat-user + .emote.Clap {
+  transform: scale(-1, 1);
 }
-
-.emote.Clap:only-of-type,
-.emote+.emote.Clap:last-of-type,
-.emote.Clap:last-of-type {
-  transform: scale(1) translate(-2px, 4px);
+.emote.Clap:only-of-type, .emote + .emote.Clap:last-of-type, .emote.Clap:last-of-type {
+  transform: scale(1);
 }
-
-.emote.Clap:only-of-type,
-.chat-user+.emote.Clap {
-  transform: translate(0px, 0px);
-}
-
 .emote.Clap:hover {
-  animation: Clap-hover 400ms steps(3) infinite;
+  animation: Clap-hover 400ms steps(2) infinite;
 }
 
-.emote.SOY+.emote.Clap {
+.emote.SOY + .emote.Clap {
   animation-duration: 150ms;
   animation-iteration-count: 26;
-  transform: scale(1) translate(-2px, 4px);
 }
-
-.emote.SOY+.emote.Clap:hover {
+.emote.SOY + .emote.Clap:hover {
   animation-iteration-count: infinite;
 }
 
-.emote.Slugstiny+.emote.Clap {
+.emote.Slugstiny + .emote.Clap {
   animation-duration: 1.2s;
   animation-delay: -500ms;
-  transform: scale(1) translate(-2px, 4px);
 }
 
 @keyframes Clap-anim2 {
-  100% {
-    background-position: -96px;
-  }
+  100% { background-position: -44px; }
+}
+@keyframes GIGACLAP-slide {
+  0% { transform: translate(-28px, 0); }
+  100% { transform: translate(0, 0); }
 }
 
-@keyframes GIGAClap-slide {
-  0% {
-    transform: translate(-28px, 4);
-  }
-
-  100% {
-    transform: translate(-2px, 4px);
-  }
-}
-
-.emote.GIGACHAD+.emote.Clap {
-  animation: Clap-anim 600ms steps(3) 7 -150ms, GIGAClap-slide 1.5s ease-out 1;
-  transform: scale(1) translate(-2px, 4px);
-}
-
-.emote.GIGACHAD+.emote.Clap:hover {
-  animation: Clap-hover 600ms steps(3) infinite -150ms, GIGAClap-slide 1.5s ease-out 1;
+.emote.GIGACHAD + .emote.Clap {
+  animation: Clap-anim2 800ms steps(2) 7 -150ms, GIGACLAP-slide 1.5s ease-out 1; 
 }
 .emote.Clueless {
   filter: drop-shadow(0px 0px 1px #ffffff);
@@ -5934,29 +5890,6 @@
 
 
 /* Halloween version made by T9Parker */
-.emote.TeddyPepe {
-    width: 48px;
-    height: 34px;
-    background-repeat: no-repeat;
-    animation: TeddyPepe-anim steps(23) 2.5s 1 forwards .3s;
-}
-
-.emote.TeddyPepe:hover {
-    animation: TeddyPepe-hover steps(23) 2.5s infinite;
-}
-
-
-@keyframes TeddyPepe-anim {
-    to {
-        background-position: -1104px;
-    }
-}
-
-@keyframes TeddyPepe-hover {
-    to {
-        background-position: -1104px;
-    }
-}
 /* Halloween version made by Igor */
 @keyframes TRUMPED-anim { 
   100% { background-position: -106px 0; }
