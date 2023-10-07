@@ -2145,17 +2145,17 @@
     },
     {
         "prefix": "nathanOOO",
-        "creator": null,
+        "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.2/emotes/5e558e36bda2f.png",
-                "name": "5e558e36bda2f.png",
+                "url": "https://cdn.destiny.gg/2.84.2/emotes/6521c8c7d66a1.png",
+                "name": "6521c8c7d66a1.png",
                 "mime": "image/png",
                 "height": 32,
-                "width": 32
+                "width": 4608
             }
         ]
     },
@@ -2257,17 +2257,17 @@
     },
     {
         "prefix": "nathanThinking",
-        "creator": null,
+        "creator": "cybervegan",
         "twitch": false,
-        "theme": 1,
+        "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.2/emotes/nathanThinking.png",
-                "name": "nathanThinking.png",
+                "url": "https://cdn.destiny.gg/2.84.2/emotes/6521cf3f4e6b5.png",
+                "name": "6521cf3f4e6b5.png",
                 "mime": "image/png",
-                "height": 28,
-                "width": 28
+                "height": 30,
+                "width": 33
             }
         ]
     },
@@ -2609,17 +2609,17 @@
     },
     {
         "prefix": "OneGuy",
-        "creator": null,
+        "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.2/emotes/63bc38043976a.png",
-                "name": "63bc38043976a.png",
+                "url": "https://cdn.destiny.gg/2.84.2/emotes/6521013f2cc52.png",
+                "name": "6521013f2cc52.png",
                 "mime": "image/png",
-                "height": 30,
-                "width": 99
+                "height": 34,
+                "width": 115
             }
         ]
     },
