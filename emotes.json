@@ -641,14 +641,14 @@
     },
     {
         "prefix": "CROPSTINY",
-        "creator": null,
+        "creator": "cybervegan",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.4/emotes/5f77e49aedd12.png",
-                "name": "5f77e49aedd12.png",
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/65273cdb0914e.png",
+                "name": "65273cdb0914e.png",
                 "mime": "image/png",
                 "height": 32,
                 "width": 57
@@ -1793,7 +1793,7 @@
     },
     {
         "prefix": "MotherFuckinGame",
-        "creator": null,
+        "creator": "Voiture ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -1809,7 +1809,7 @@
     },
     {
         "prefix": "NAHH",
-        "creator": "",
+        "creator": "cybervegan",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2289,7 +2289,7 @@
     },
     {
         "prefix": "nathanTiny2",
-        "creator": null,
+        "creator": "Edrito ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2449,7 +2449,7 @@
     },
     {
         "prefix": "NOBULLY",
-        "creator": null,
+        "creator": "slicklikedat / Igor ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2513,7 +2513,7 @@
     },
     {
         "prefix": "NoTears",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2529,7 +2529,7 @@
     },
     {
         "prefix": "NOTMYTEMPO",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2577,7 +2577,7 @@
     },
     {
         "prefix": "OhMyDog",
-        "creator": null,
+        "creator": "Voiture ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2593,7 +2593,7 @@
     },
     {
         "prefix": "OMEGALUL",
-        "creator": null,
+        "creator": "huhhmann ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2609,7 +2609,7 @@
     },
     {
         "prefix": "OneGuy",
-        "creator": "",
+        "creator": "cybervegan",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2641,7 +2641,7 @@
     },
     {
         "prefix": "OverRustle",
-        "creator": "",
+        "creator": "cybervegan",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2657,7 +2657,7 @@
     },
     {
         "prefix": "Painstiny",
-        "creator": null,
+        "creator": "nmwood ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2753,7 +2753,7 @@
     },
     {
         "prefix": "PepeLaugh",
-        "creator": null,
+        "creator": "Knightyyyyyyyyy ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2769,7 +2769,7 @@
     },
     {
         "prefix": "PepeMods",
-        "creator": null,
+        "creator": "Kogasa / Igor ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2865,7 +2865,7 @@
     },
     {
         "prefix": "PepoThink",
-        "creator": null,
+        "creator": "Lumax ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2913,7 +2913,7 @@
     },
     {
         "prefix": "PICNIC",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -2961,7 +2961,7 @@
     },
     {
         "prefix": "POOTUBE",
-        "creator": "",
+        "creator": "cybervegan",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3073,7 +3073,7 @@
     },
     {
         "prefix": "SICKO",
-        "creator": null,
+        "creator": "Lumax ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3105,7 +3105,7 @@
     },
     {
         "prefix": "SLEEPSTINY",
-        "creator": null,
+        "creator": "transpeoplearefine ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3121,7 +3121,7 @@
     },
     {
         "prefix": "Slugstiny",
-        "creator": null,
+        "creator": "skend ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3137,7 +3137,7 @@
     },
     {
         "prefix": "Slumlord",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3169,7 +3169,7 @@
     },
     {
         "prefix": "SNAP",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3185,7 +3185,7 @@
     },
     {
         "prefix": "SoDoge",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3201,7 +3201,7 @@
     },
     {
         "prefix": "SOTRIGGERED",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3217,7 +3217,7 @@
     },
     {
         "prefix": "SOY",
-        "creator": null,
+        "creator": "Vindelici ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3233,7 +3233,7 @@
     },
     {
         "prefix": "SpookerZ",
-        "creator": null,
+        "creator": "BBDGG ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3265,7 +3265,7 @@
     },
     {
         "prefix": "SWEATSTINY",
-        "creator": null,
+        "creator": "T9Parker ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3361,7 +3361,7 @@
     },
     {
         "prefix": "TRUMPED",
-        "creator": null,
+        "creator": "Igor ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3393,7 +3393,7 @@
     },
     {
         "prefix": "UWOTM8",
-        "creator": null,
+        "creator": "Vindelici ",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
@@ -3665,7 +3665,7 @@
     },
     {
         "prefix": "TRIAD",
-        "creator": "",
+        "creator": "✡️✡️✡️✡️✡️",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
