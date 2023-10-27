@@ -807,11 +807,11 @@
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.4/emotes/600b6a3db1bfc.png",
-                "name": "600b6a3db1bfc.png",
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/6090e31923c29.png",
+                "name": "6090e31923c29.png",
                 "mime": "image/png",
-                "height": 32,
-                "width": 30
+                "height": 28,
+                "width": 28
             }
         ]
     },
@@ -3665,14 +3665,14 @@
     },
     {
         "prefix": "TRIAD",
-        "creator": "✡️✡️✡️✡️✡️",
+        "creator": "",
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.4/emotes/652119333e9d2.png",
-                "name": "652119333e9d2.png",
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/615e03d872e9c.png",
+                "name": "615e03d872e9c.png",
                 "mime": "image/png",
                 "height": 34,
                 "width": 5280
