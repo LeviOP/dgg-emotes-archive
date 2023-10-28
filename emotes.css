@@ -449,13 +449,13 @@
     top: 8px;
 }
 .emote.DEATH {
-    background-image: url("600b6a3db1bfc.png");
-    height: 32px;
-    width: 30px;
+    background-image: url("6090e31923c29.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.DEATH {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.Depresstiny {
     background-image: url("5d9bcc1b8f155.png");
@@ -962,13 +962,13 @@
     top: 9px;
 }
 .emote.MLADY {
-    background-image: url("5d936234119b8.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("5e9e13c9431dc.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.MLADY {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.MMMM {
     background-image: url("6156d74a61d0f.png");
@@ -1915,6 +1915,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.WEEWOO {
+    background-image: url("6519465c0ae7b.png");
+    height: 30px;
+    width: 33px;
+}
+.msg-chat .emote.WEEWOO {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.WEOW {
     background-image: url("617fd8c1e86da.png");
     height: 32px;
@@ -2060,22 +2069,13 @@
     top: 8px;
 }
 .emote.TRIAD {
-    background-image: url("652119333e9d2.png");
+    background-image: url("615e03d872e9c.png");
     height: 34px;
     width: 5280px;
 }
 .msg-chat .emote.TRIAD {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.WEEWOO {
-    background-image: url("6519465c0ae7b.png");
-    height: 30px;
-    width: 33px;
-}
-.msg-chat .emote.WEEWOO {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.AMAZIN {
     width: 53px;
@@ -3463,11 +3463,11 @@
 }
 
 .msg-chat.msg-emote[data-combo-group="x30"] {
-    animation: RARE-BRONZE 1.2s 1, RARE-BRONZE-PULSATE 5s infinite 1.2s linear;
+    animation: RARE-BRONZE 1.2s 1, RARE-BRONZE-PULSATE 5s 15 1.2s linear;
 }
 
 .msg-chat.msg-emote[data-combo-group="x50"] {
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 5s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 5s 15 1.2s linear;
 }
 
 /*
@@ -3570,7 +3570,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL {
     background-position: -320px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL:hover {
@@ -3583,7 +3583,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL {
     background-position: -352px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL:hover {
@@ -3596,7 +3596,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL {
     background-position: -384px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL:hover {
@@ -3609,7 +3609,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL {
     background-position: -416px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL:hover {
@@ -3622,7 +3622,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL {
     background-position: -480px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL:hover {
@@ -3635,7 +3635,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL {
     background-position: -512px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL:hover {
@@ -3648,7 +3648,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL {
     background-position: -576px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL:hover {
@@ -3661,7 +3661,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL {
     background-position: -608px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL:hover {
@@ -3674,7 +3674,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL {
     background-position: -736px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL:hover {
@@ -3689,7 +3689,7 @@
     background-position: -448px;
     background-repeat: no-repeat;
     transition: ease-out .4s;
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s 10 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.dggL:hover {
@@ -3702,7 +3702,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="999"]~.text .emote.dggL {
     background-position: -544px;
     background-repeat: no-repeat;
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s 10 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="999"]~.text .emote.dggL:hover {
@@ -3715,7 +3715,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.dggL {
     background-position: -640px;
     background-repeat: no-repeat;
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s 10 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.dggL:hover {
@@ -3730,7 +3730,7 @@
     background-position: -640px;
     background-repeat: no-repeat;
     filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(-13px 0px 10px rgba(255, 153, 102, 0.25)) drop-shadow(13px 0px 10px rgba(255, 158, 102, 0.25));
-    animation: RARE-COCKA 1.2s 1, RARE-COCKA-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-COCKA 1.2s 1, RARE-COCKA-PULSATE 1.2s 15 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.dggL:hover {
@@ -4667,43 +4667,18 @@
   100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
 }
 @keyframes MLADY-anim {
-    0% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
-    30% {
-        transform: rotate(20deg);
-        transform-origin: 4px bottom;
-    }
-    80% {
-        transform: rotate(-10deg);
-        transform-origin: 4px bottom;
-    }
-    100% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(20deg); }
+    80% { transform: rotate(-10deg); }
 }
 @keyframes MLADY-anim-hover {
-    0% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
-    30% {
-        transform: rotate(20deg);
-        transform-origin: 4px bottom;
-    }
-    80% {
-        transform: rotate(-10deg);
-        transform-origin: 4px bottom;
-    }
-    100% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(20deg); }
+    80% { transform: rotate(-10deg); }
 }
 .emote.MLADY {
     animation: MLADY-anim 250ms 3;
+    transform-origin: 5% 90%;
 }
 .emote.MLADY:hover {
     animation: MLADY-anim-hover 250ms infinite;
@@ -6084,6 +6059,104 @@
 }
 
 /* Halloween version made by Vindelici */
+.emote.WEEWOO {
+    background-position: 0px;
+    background-repeat: no-repeat;
+    animation: WEEWOO-anim 1.5s ease-out 1;
+    transition: all 1s;
+}
+
+.emote.WEEWOO:hover {
+    transition: all .5s;
+    animation: WEEWOO-hover 1.5s ease-out infinite;
+}
+
+
+@keyframes WEEWOO-anim {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
+    }
+
+    11% {
+        filter: hue-rotate(170deg)
+    }
+
+    35% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
+    }
+
+    51% {
+        filter: hue-rotate(310deg)
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
+    }
+
+    91% {
+        filter: hue-rotate(0deg)
+    }
+}
+
+@keyframes WEEWOO-hover {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
+    }
+
+    11% {
+        filter: hue-rotate(170deg)
+    }
+
+    35% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
+    }
+
+    51% {
+        filter: hue-rotate(310deg)
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
+    }
+
+    91% {
+        filter: hue-rotate(0deg)
+    }
+}
 .emote.WICKED {
     width: 70px;
     height: 32px;
@@ -6455,8 +6528,6 @@
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
 /* Halloween version made by Gahhey */
-/* ✡️✡️✡️✡️✡️ SHALOM ✡️✡️✡️✡️✡️ */ 
-
 @keyframes TRIAD {
   0% { background-position: 0px; }
   100% { background-position: -5280px; }
@@ -6491,102 +6562,4 @@
 .emote.TRIAD:hover, .emote.LeRuse + .emote.TRIAD:hover {
   background-position: -1936px;
   animation: TRIAD-hover steps(19) 0.6333s infinite; 
-}
-.emote.WEEWOO {
-    background-position: 0px;
-    background-repeat: no-repeat;
-    animation: WEEWOO-anim 1.5s ease-out 1;
-    transition: all 1s;
-}
-
-.emote.WEEWOO:hover {
-    transition: all .5s;
-    animation: WEEWOO-hover 1.5s ease-out infinite;
-}
-
-
-@keyframes WEEWOO-anim {
-
-    0%,
-    100% {
-        opacity: 1
-    }
-
-    10% {
-        opacity: 0.5;
-        filter: hue-rotate(0deg)
-    }
-
-    11% {
-        filter: hue-rotate(170deg)
-    }
-
-    35% {
-        opacity: 1
-    }
-
-    50% {
-        opacity: 0.2;
-        filter: hue-rotate(170deg)
-    }
-
-    51% {
-        filter: hue-rotate(310deg)
-    }
-
-    65% {
-        opacity: 1
-    }
-
-    90% {
-        opacity: 0.2;
-        filter: hue-rotate(310deg)
-    }
-
-    91% {
-        filter: hue-rotate(0deg)
-    }
-}
-
-@keyframes WEEWOO-hover {
-
-    0%,
-    100% {
-        opacity: 1
-    }
-
-    10% {
-        opacity: 0.5;
-        filter: hue-rotate(0deg)
-    }
-
-    11% {
-        filter: hue-rotate(170deg)
-    }
-
-    35% {
-        opacity: 1
-    }
-
-    50% {
-        opacity: 0.2;
-        filter: hue-rotate(170deg)
-    }
-
-    51% {
-        filter: hue-rotate(310deg)
-    }
-
-    65% {
-        opacity: 1
-    }
-
-    90% {
-        opacity: 0.2;
-        filter: hue-rotate(310deg)
-    }
-
-    91% {
-        filter: hue-rotate(0deg)
-    }
 }
