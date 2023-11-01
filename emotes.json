@@ -593,17 +593,17 @@
     },
     {
         "prefix": "COOMER",
-        "creator": "FizzyLongstockings",
+        "creator": "",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.84.4/emotes/6500fc2adb95e.png",
-                "name": "6500fc2adb95e.png",
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/653c2d31d8769.png",
+                "name": "653c2d31d8769.png",
                 "mime": "image/png",
                 "height": 28,
-                "width": 1260
+                "width": 28
             }
         ]
     },
@@ -3265,7 +3265,7 @@
     },
     {
         "prefix": "Stare",
-        "creator": "",
+        "creator": "cybervegan",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
@@ -3372,6 +3372,22 @@
                 "mime": "image/png",
                 "height": 32,
                 "width": 28
+            }
+        ]
+    },
+    {
+        "prefix": "TRIAD",
+        "creator": "",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/5fc0682f0c354.png",
+                "name": "5fc0682f0c354.png",
+                "mime": "image/png",
+                "height": 35,
+                "width": 4200
             }
         ]
     },
