@@ -272,6 +272,22 @@
         ]
     },
     {
+        "prefix": "BLADE_v2",
+        "creator": "",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/5f53d5e23237b.png",
+                "name": "5f53d5e23237b.png",
+                "mime": "image/png",
+                "height": 21,
+                "width": 50
+            }
+        ]
+    },
+    {
         "prefix": "Blesstiny",
         "creator": "Toblakai_ ",
         "twitch": false,
@@ -3689,6 +3705,86 @@
             {
                 "url": "https://cdn.destiny.gg/2.84.4/emotes/5d9361327311b.png",
                 "name": "5d9361327311b.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 32
+            }
+        ]
+    },
+    {
+        "prefix": "BLADE_SABER",
+        "creator": "Igor",
+        "twitch": false,
+        "theme": 3,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/5f80acd664b04.png",
+                "name": "5f80acd664b04.png",
+                "mime": "image/png",
+                "height": 31,
+                "width": 84
+            }
+        ]
+    },
+    {
+        "prefix": "gavSmash",
+        "creator": "",
+        "twitch": false,
+        "theme": 3,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/6541d474a2a5f.gif",
+                "name": "6541d474a2a5f.gif",
+                "mime": "image/gif",
+                "height": 30,
+                "width": 30
+            }
+        ]
+    },
+    {
+        "prefix": "LULWCD",
+        "creator": "",
+        "twitch": false,
+        "theme": 3,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/6541d3b448d6e.png",
+                "name": "6541d3b448d6e.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 28
+            }
+        ]
+    },
+    {
+        "prefix": "MLADY_COLD",
+        "creator": "",
+        "twitch": false,
+        "theme": 3,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/65418b4358370.png",
+                "name": "65418b4358370.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 45
+            }
+        ]
+    },
+    {
+        "prefix": "pp",
+        "creator": "",
+        "twitch": false,
+        "theme": 3,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.84.4/emotes/651cf643c01b7.png",
+                "name": "651cf643c01b7.png",
                 "mime": "image/png",
                 "height": 32,
                 "width": 32
