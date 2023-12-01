@@ -2625,17 +2625,17 @@
     },
     {
         "prefix": "OneGuy",
-        "creator": null,
+        "creator": "StrawWaffle",
         "twitch": false,
-        "theme": 1,
+        "theme": 2,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.86.1/emotes/63bc38043976a.png",
-                "name": "63bc38043976a.png",
+                "url": "https://cdn.destiny.gg/2.86.1/emotes/656994284f98e.png",
+                "name": "656994284f98e.png",
                 "mime": "image/png",
                 "height": 30,
-                "width": 99
+                "width": 90
             }
         ]
     },
