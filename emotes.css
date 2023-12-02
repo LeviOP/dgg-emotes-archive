@@ -71,9 +71,9 @@
     top: 7.5px;
 }
 .emote.Aware {
-    background-image: url("656a493e53c2f.png");
+    background-image: url("643ce0a64d6bc.png");
     height: 32px;
-    width: 2030px;
+    width: 1152px;
 }
 .msg-chat .emote.Aware {
     margin-top: -32px;
@@ -197,9 +197,9 @@
     top: 7.5px;
 }
 .emote.catJAM {
-    background-image: url("656a4eed29193.png");
+    background-image: url("653c2ce73bbaf.png");
     height: 30px;
-    width: 4740px;
+    width: 7144px;
 }
 .msg-chat .emote.catJAM {
     margin-top: -30px;
@@ -242,9 +242,9 @@
     top: 7px;
 }
 .emote.Clueless {
-    background-image: url("656a48f2a0438.png");
+    background-image: url("643ce2d3843f0.png");
     height: 32px;
-    width: 32px;
+    width: 36px;
 }
 .msg-chat .emote.Clueless {
     margin-top: -32px;
@@ -1124,13 +1124,13 @@
     top: 7px;
 }
 .emote.nathanFeels {
-    background-image: url("656a5a6771a35.png");
-    height: 32px;
-    width: 3360px;
+    background-image: url("5bd45ccae347b.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.nathanFeels {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.nathanGG {
     background-image: url("5eb83e6d3f994.png");
@@ -2191,26 +2191,20 @@
 }
 .emote.Aware {
   height: 32px;
-  width: 35px;
-  animation: Aware-anim 1.65s steps(57) forwards .35s;
+  width: 36px;
+  animation: Aware-anim 1.3s steps(31) forwards;
 }
- 
-.emote.Aware:hover {  
+.emote.Aware:hover {
   height: 32px;
-  width: 35px; 
-  animation: Aware-hover 1.65s steps(57) infinite;
-} 
+  width: 36px;
+  animation: Aware-hover 1.3s steps(31) forwards 1;
+}
 
 @keyframes Aware-anim {
-  to {
-    background-position: -1995px;
-  }
+  to { background-position: -1116px; }
 }
-
 @keyframes Aware-hover {
-  to {
-    background-position: -1995px;
-  }
+  to { background-position: -1116px; }
 }
 @keyframes AYAYA-anim {
     0% { transform: translate(0px, 0px); }
@@ -2403,18 +2397,18 @@
       animation-delay: 0.25s;
 }
 @keyframes catJAM-anim {
-  100% { background-position: -4740px; }
+  100% { background-position: -7144px; }
 }
 @keyframes catJAM-hover {
-  100% { background-position: -4740px; }
+  100% { background-position: -7144px; }
 }
 
 .emote.catJAM {
-  width: 29px;
-  animation: catJAM-anim 2 steps(158) 6.5s;
+  width: 38px;
+  animation: catJAM-anim 2 steps(188) 6.5s;
 }
 .emote.catJAM:hover {
-  animation: catJAM-hover infinite steps(158) 6.5s;
+  animation: catJAM-hover infinite steps(188) 6.5s;
 }
 /*
 #### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
@@ -3687,30 +3681,6 @@
 .emote.Nappa:hover {
     animation: Nappa-anim-hover 750ms infinite;
 }
-@keyframes nathanFeels-anim {
-    to {
-        background-position: -3304px;
-    }
-}
-
-@keyframes nathanFeels-hover {
-    to {
-        background-position: -3304px;
-    }
-}
- 
-.emote.nathanFeels {
-    width: 56px;
-    height: 32px;
-    filter: brightness(1.15);
-    animation: nathanFeels-anim steps(59) 1.5s 1 forwards .25s;
-}
-
-.emote.nathanFeels:hover {
-    animation: nathanFeels-hover steps(59) 1.5s 1 forwards;
-}
-
-
 .emote.NOOOO {
   height: 35px;
   width: 41px;
