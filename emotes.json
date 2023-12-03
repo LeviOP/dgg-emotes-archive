@@ -3616,6 +3616,22 @@
         ]
     },
     {
+        "prefix": "YAP",
+        "creator": "Wolfgand_Shuric",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.86.1/emotes/656c35d64cd6a.png",
+                "name": "656c35d64cd6a.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 352
+            }
+        ]
+    },
+    {
         "prefix": "YEE",
         "creator": null,
         "twitch": false,
