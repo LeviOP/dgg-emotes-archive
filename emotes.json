@@ -560,22 +560,6 @@
         ]
     },
     {
-        "prefix": "ComfyMel",
-        "creator": null,
-        "twitch": false,
-        "theme": 2,
-        "minimumSubTier": 0,
-        "image": [
-            {
-                "url": "https://cdn.destiny.gg/2.87.1/emotes/61ab4b19bd30e.png",
-                "name": "61ab4b19bd30e.png",
-                "mime": "image/png",
-                "height": 32,
-                "width": 46
-            }
-        ]
-    },
-    {
         "prefix": "coMMMMfy",
         "creator": null,
         "twitch": false,
@@ -1628,22 +1612,6 @@
                 "mime": "image/png",
                 "height": 29,
                 "width": 31
-            }
-        ]
-    },
-    {
-        "prefix": "melW",
-        "creator": "Fritz ",
-        "twitch": false,
-        "theme": 2,
-        "minimumSubTier": 0,
-        "image": [
-            {
-                "url": "https://cdn.destiny.gg/2.87.1/emotes/656987d2db7d6.png",
-                "name": "656987d2db7d6.png",
-                "mime": "image/png",
-                "height": 28,
-                "width": 28
             }
         ]
     },
