@@ -313,15 +313,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.ComfyMel {
-    background-image: url("61ab4b19bd30e.png");
-    height: 32px;
-    width: 46px;
-}
-.msg-chat .emote.ComfyMel {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.coMMMMfy {
     background-image: url("638af3cbaf0a6.png");
     height: 32px;
@@ -915,15 +906,6 @@
 .msg-chat .emote.MASTERB8 {
     margin-top: -29px;
     top: 7.25px;
-}
-.emote.melW {
-    background-image: url("6126448d35905.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.melW {
-    margin-top: -28px;
-    top: 7px;
 }
 .emote.Memegasm {
     background-image: url("5de2f9fea9dcb.png");
