@@ -1655,13 +1655,13 @@
     top: 7.5px;
 }
 .emote.POOTUBE {
-    background-image: url("6576418ec8bf6.png");
-    height: 32px;
-    width: 60px;
+    background-image: url("653c2e3e247af.png");
+    height: 24px;
+    width: 24px;
 }
 .msg-chat .emote.POOTUBE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -24px;
+    top: 6px;
 }
 .emote.POTATO {
     background-image: url("5de1839c8d2a8.png");
@@ -1808,7 +1808,7 @@
     top: 7.5px;
 }
 .emote.SoyPoint {
-    background-image: url("65763b66b31fc.png");
+    background-image: url("6519241ea3d77.png");
     height: 32px;
     width: 43px;
 }
