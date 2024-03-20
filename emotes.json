@@ -545,7 +545,7 @@
     },
     {
         "prefix": "comfYEE",
-        "creator": null,
+        "creator": "",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
@@ -3697,7 +3697,7 @@
     },
     {
         "prefix": "YeeMods",
-        "creator": null,
+        "creator": "",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
