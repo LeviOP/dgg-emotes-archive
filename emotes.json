@@ -1073,17 +1073,17 @@
     },
     {
         "prefix": "FeelsOkayMan",
-        "creator": null,
+        "creator": "LilyPichu",
         "twitch": false,
-        "theme": 1,
+        "theme": 5,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.91.1/emotes/5fc940888e8d3.png",
-                "name": "5fc940888e8d3.png",
+                "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa71504b8c.png",
+                "name": "660aa71504b8c.png",
                 "mime": "image/png",
                 "height": 32,
-                "width": 33
+                "width": 32
             }
         ]
     },

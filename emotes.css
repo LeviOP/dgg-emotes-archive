@@ -602,9 +602,9 @@
     top: 7.5px;
 }
 .emote.FeelsOkayMan {
-    background-image: url("5fc940888e8d3.png");
+    background-image: url("660aa71504b8c.png");
     height: 32px;
-    width: 33px;
+    width: 32px;
 }
 .msg-chat .emote.FeelsOkayMan {
     margin-top: -32px;
@@ -872,13 +872,13 @@
     top: 7.5px;
 }
 .emote.LOVE {
-    background-image: url("5cc0cc2a87ca8.png");
-    height: 30px;
-    width: 51px;
+    background-image: url("653c8e146b5ba.png");
+    height: 32px;
+    width: 54px;
 }
 .msg-chat .emote.LOVE {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.LUL {
     background-image: url("660a62eedf9a2.png");
@@ -1700,13 +1700,13 @@
     top: 7px;
 }
 .emote.RaveDoge {
-    background-image: url("653c2e056a57d.png");
-    height: 34px;
-    width: 1350px;
+    background-image: url("660aa6653360d.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.RaveDoge {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.REE {
     background-image: url("660a465f7b463.png");
@@ -2095,6 +2095,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.!ipban {
+    background-image: url("660a9eb1d8ec7.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.!ipban {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Bannedstiny {
     background-image: url("660a5b862713d.png");
     height: 32px;
@@ -2128,6 +2137,15 @@
     width: 32px;
 }
 .msg-chat .emote.blue {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Cheerstiny {
+    background-image: url("660aa12bdf25a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Cheerstiny {
     margin-top: -32px;
     top: 8px;
 }
@@ -2212,6 +2230,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.KEIKAKU {
+    background-image: url("660aa11c07658.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.KEIKAKU {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Lewdstiny {
     background-image: url("660a8d6cb83c8.png");
     height: 32px;
@@ -2239,12 +2266,30 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.LUV {
+    background-image: url("660aa2307d42b.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.LUV {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.monkaGun {
     background-image: url("660a8311afd1e.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.monkaGun {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.NOTED {
+    background-image: url("660aa18c8da9e.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.NOTED {
     margin-top: -32px;
     top: 8px;
 }
@@ -2293,6 +2338,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.PICKME {
+    background-image: url("660aa1780731d.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PICKME {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.POGPLANT {
     background-image: url("660a88af97d26.png");
     height: 28px;
@@ -2301,6 +2355,15 @@
 .msg-chat .emote.POGPLANT {
     margin-top: -28px;
     top: 7px;
+}
+.emote.PopcornTime {
+    background-image: url("660aa1571d9bf.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PopcornTime {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.POPPERS {
     background-image: url("660a939d14536.gif");
@@ -2326,6 +2389,15 @@
     width: 32px;
 }
 .msg-chat .emote.smolstiny {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.TeaTime {
+    background-image: url("660aa1d8f18ed.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.TeaTime {
     margin-top: -32px;
     top: 8px;
 }
@@ -3836,11 +3908,8 @@ height: 32px;
 }
 @keyframes LOVE-anim {
     0% { top: -25px; }
-    100% { top: 30px; }
-}
-@keyframes LOVE-hover {
-    0% { top: -25px; }
-    100% { top: 30px; }
+    99% { top: 30px; }
+    100%{ top: -25px; }
 }
 .emote.LOVE:before{
     content: "💗";
@@ -3862,10 +3931,10 @@ height: 32px;
     animation-delay: 0.25s;
 }
 .emote.LOVE:hover::before {
-    animation: LOVE-hover 0.5s infinite;
+    animation: LOVE-anim 0.5s infinite;
 }
 .emote.LOVE:hover::after {
-    animation: LOVE-hover 0.5s infinite;
+    animation: LOVE-anim 0.5s infinite;
     animation-delay: 0.25s;
 }
 @keyframes MALARKEY-anim {
@@ -4466,24 +4535,6 @@ height: 32px;
 
 .emote.GIGACHAD + .emote.RapThis {
   animation: GIGARAP-anim 1.5s ease-out 1;
-}
-@keyframes RaveDoge-anim {
-  100% { background-position: -1350px; }
-}
-
-@keyframes RaveDoge-hover {
-  100% { background-position: -1350px; }
-}
-
-.emote.RaveDoge {
-  margin-left: -3px;
-  margin-right: -3px;
-  width: 50px;
-  animation: RaveDoge-anim 1.62s steps(27) 7 -.67s;
-}
-
-.emote.RaveDoge:hover {
-  animation: RaveDoge-hover 1.62s steps(27) infinite;
 }
 @keyframes REE-anim {
     from { left: 0; }
@@ -5614,6 +5665,36 @@ filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px
 }
 .emote.Bannedstiny:hover::before {
   animation: Bannedstiny-anim-hover 2s infinite;
+}
+.emote.Cheerstiny{
+  animation: YUMP-anim 800ms 3;
+  animation-delay: .3s;
+}
+
+.emote.Cheerstiny:hover{
+  animation: YUMP-anim-hover 800ms 3;
+  animation-delay: .3s
+}
+
+
+
+@keyframes YUMP-anim {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
+    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
+    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
+@keyframes YUMP-anim-hover {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
+    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
+  100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
 }
 @keyframes PepoPunch-anim {
   100% { background-position: -448px; }
