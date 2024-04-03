@@ -880,6 +880,22 @@
         ]
     },
     {
+        "prefix": "diNOWAY",
+        "creator": "cybervegan / social_scrub / WDK",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/2.91.1/emotes/660b7db35c917.png",
+                "name": "660b7db35c917.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 43
+            }
+        ]
+    },
+    {
         "prefix": "Disgustiny",
         "creator": null,
         "twitch": false,
@@ -1367,11 +1383,11 @@
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/2.91.1/emotes/660c9caac41a5.png",
-                "name": "660c9caac41a5.png",
+                "url": "https://cdn.destiny.gg/2.91.1/emotes/660cc4785d136.png",
+                "name": "660cc4785d136.png",
                 "mime": "image/png",
                 "height": 30,
-                "width": 67
+                "width": 104
             }
         ]
     },
