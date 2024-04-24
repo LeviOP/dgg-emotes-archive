@@ -664,12 +664,12 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.FerretPOG {
+.emote.ferretPOG {
     background-image: url("660ab06b7f47c.png");
     height: 32px;
     width: 32px;
 }
-.msg-chat .emote.FerretPOG {
+.msg-chat .emote.ferretPOG {
     margin-top: -32px;
     top: 8px;
 }
