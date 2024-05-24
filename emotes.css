@@ -5184,10 +5184,10 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     top: -18px;
     left: 32px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
     transform: scale(0, 0);
-    animation: SHOCKSTINY-mark 1.3s 1 ease;
+    animation: SHOCKSTINY-mark 1.75s 1 ease;
 }
 .emote.SHOCKSTINY:hover::before {
-    animation: SHOCKSTINY-mark-hover 1.3s  ease;
+    animation: SHOCKSTINY-mark-hover 1.75s  ease;
 }
 
 
