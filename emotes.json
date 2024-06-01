@@ -1603,7 +1603,7 @@
         "prefix": "KING",
         "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 4,
         "minimumSubTier": 0,
         "image": [
             {
@@ -1793,9 +1793,9 @@
     },
     {
         "prefix": "miyanobird",
-        "creator": null,
+        "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 4,
         "minimumSubTier": 0,
         "image": [
             {
@@ -3585,9 +3585,9 @@
     },
     {
         "prefix": "SURPRISE",
-        "creator": null,
+        "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 4,
         "minimumSubTier": 0,
         "image": [
             {
