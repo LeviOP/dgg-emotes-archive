@@ -745,15 +745,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.FrankerZ {
-    background-image: url("665b0209da572.png");
-    height: 30px;
-    width: 42px;
-}
-.msg-chat .emote.FrankerZ {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.gachiGASM {
     background-image: url("5c2bbc9ac1396.png");
     height: 30px;
@@ -832,15 +823,6 @@
     width: 30px;
 }
 .msg-chat .emote.haHAA {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.Heimerdonger {
-    background-image: url("665add97421dc.png");
-    height: 30px;
-    width: 37px;
-}
-.msg-chat .emote.Heimerdonger {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1195,15 +1177,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.nathanGG {
-    background-image: url("665addda0b74d.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.nathanGG {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.nathanNotears {
     background-image: url("nathanNotears.png");
     height: 28px;
@@ -1228,15 +1201,6 @@
     width: 28px;
 }
 .msg-chat .emote.nathanPepe {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanPrime {
-    background-image: url("665ade0567258.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanPrime {
     margin-top: -28px;
     top: 7px;
 }
