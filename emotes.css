@@ -34,15 +34,6 @@
     margin-top: -26px;
     top: 6.5px;
 }
-.emote.AMOGUS {
-    background-image: url("665b0bdb9267f.png");
-    height: 30px;
-    width: 70px;
-}
-.msg-chat .emote.AMOGUS {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.AngelThump {
     background-image: url("5c2bbb9fa8ab2.png");
     height: 30px;
@@ -466,15 +457,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.DankChoke {
-    background-image: url("6683a32b46d81.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DankChoke {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.DANKMEMES {
     background-image: url("66596f55973e2.png");
     height: 30px;
@@ -483,15 +465,6 @@
 .msg-chat .emote.DANKMEMES {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.DankWave {
-    background-image: url("6683a33ce76e6.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DankWave {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.DappaKappa {
     background-image: url("665adcfd67837.png");
@@ -592,15 +565,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.DOUBT {
-    background-image: url("66839a60c446a.png");
-    height: 32px;
-    width: 56px;
-}
-.msg-chat .emote.DOUBT {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.DuckerZ {
     background-image: url("5c2bbc5803fc3.png");
     height: 26px;
@@ -625,15 +589,6 @@
     width: 30px;
 }
 .msg-chat .emote.ECH {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.EVIL {
-    background-image: url("6683a34d73243.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.EVIL {
     margin-top: -32px;
     top: 8px;
 }
@@ -816,6 +771,15 @@
 .msg-chat .emote.GameOfThrows {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.GatoPls {
+    background-image: url("66826a3a23fd8.png");
+    height: 38px;
+    width: 45px;
+}
+.msg-chat .emote.GatoPls {
+    margin-top: -38px;
+    top: 9.5px;
 }
 .emote.GIGACHAD {
     background-image: url("624bb3cf81ae1.png");
@@ -1169,13 +1133,13 @@
     top: 8px;
 }
 .emote.monkaVirus {
-    background-image: url("6683a68fcc03f.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("665b0bdb9267f.png");
+    height: 30px;
+    width: 70px;
 }
 .msg-chat .emote.monkaVirus {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.MotherFuckinGame {
     background-image: url("665aec373e762.png");
@@ -1321,6 +1285,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.nathanYikes {
+    background-image: url("5bd0bd13411c5.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanYikes {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.NiceMeMe {
     background-image: url("5fad994ca9712.png");
     height: 30px;
@@ -1417,15 +1390,6 @@
     width: 86px;
 }
 .msg-chat .emote.OBJECTION {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.OhBrother {
-    background-image: url("6683a64b6b552.png");
-    height: 30px;
-    width: 37px;
-}
-.msg-chat .emote.OhBrother {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1925,7 +1889,7 @@
     top: 7.5px;
 }
 .emote.TINYING {
-    background-image: url("66834fe91db75.gif");
+    background-image: url("660abce276fba.gif");
     height: 32px;
     width: 32px;
 }
@@ -2141,13 +2105,13 @@
     top: 8px;
 }
 .emote.Yikestiny {
-    background-image: url("5bd0bd13411c5.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("6682602fdf86c.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.Yikestiny {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Yoda1 {
     background-image: url("665affdd963e2.png");
@@ -2180,28 +2144,6 @@
 .emote.AMAZIN {
     transform: translate(0px, 4px);
 }
-.emote.AMOGUS {
-  width: 35px;
-}
-.emote.AMOGUS:nth-child(6n-5) {
-  filter: hue-rotate(68deg);
-}
-.emote.AMOGUS:nth-child(6n-4) {
-  filter: hue-rotate(113deg);
-}
-.emote.AMOGUS:nth-child(6n-3) {
-  filter: hue-rotate(180deg);
-}
-.emote.AMOGUS:nth-child(6n-2) {
-  filter: hue-rotate(270deg);
-}
-.emote.AMOGUS:nth-child(6n-1) {
-  filter: hue-rotate(310deg);
-}
-.emote.AMOGUS:nth-last-child(5n-2) {
-  background-position: 35px;
-}
-
 /*@keyframes AngelThump-anim {
   20%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
   90%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
@@ -2631,29 +2573,12 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.BONK {
   width: 55px;
   height: 32px;
-  animation: BONK-anim .15s steps(2) 9 alternate-reverse , YUMP-anim .3s 5 .1s reverse;
+  animation: BONK-anim 600ms steps(2) 3;
 }
 .emote.BONK:hover {
-  animation: BONK-hover .15s steps(2) infinite alternate-reverse , YUMP-anim-hover.35s infinite   reverse;
+  animation: BONK-hover 150ms steps(2) infinite;
 }
-@keyframes YUMP-anim {
-    0% { transform: translate(0px, 0px); }
-    25% { transform: translate(0px, .5px) rotate(-3deg); animation-timing-function: ease }
-    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
-    55% { transform: translate(0px, 1px) rotate(4deg); animation-timing-function: ease}
-    60% { transform: translate(0px, 0px) rotate(2deg); animation-timing-function: ease-in}
-    75% { transform: translate(2px, 4px); animation-timing-function: ease }
-    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
-}
-@keyframes YUMP-anim-hover {
-    0% { transform: translate(0px, 0px); }
-    25% { transform: translate(0px, .5px) rotate(-3deg); animation-timing-function: ease }
-    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
-    55% { transform: translate(0px, 1px) rotate(4deg); animation-timing-function: ease}
-    60% { transform: translate(0px, 0px) rotate(2deg); animation-timing-function: ease-in}
-    75% { transform: translate(2px, 4px); animation-timing-function: ease }
-    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
-}
+
 @keyframes BoomerSippy-right {
   0%, 100% { filter: drop-shadow(0 0 0.5px black); }
   15% { background-position: 0 0;  }
@@ -3330,20 +3255,6 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.CuckCrab:hover {
   animation: CuckCrab-hover 3.68s steps(92) infinite;
 }
-@keyframes DankChoke-anim {
-    from { left: 0; }
-    to { left: 3px; }
-}
-@keyframes DankChoke-anim-hover {
-    from { left: 0; }
-    to { left: 3px; }
-}
-.emote.DankChoke {
-    animation: DankChoke-anim 100ms 7;
-}
-.emote.DankChoke:hover {
-    animation: DankChoke-anim-hover 100ms infinite;
-}
 @keyframes DANKMEMES-anim {
     0%, 100% {
         -webkit-filter: hue-rotate(0deg);
@@ -3530,8 +3441,9 @@ filter: contrast(1) saturate(1) brightness(1.25);
   background-position: -2560px;
   transition: all 0.5s;
   filter: brightness(1.25) drop-shadow(0px 0px 1px #ff0000)
-  drop-shadow(0px 0px 3px #ff0000) drop-shadow(0px 0px 5px #ff0000);
+    drop-shadow(0px 0px 3px #ff0000) drop-shadow(0px 0px 5px #ff0000);
   animation: none;
+
 }
 
 /* ## UNIQUE USERS ## */
@@ -3817,7 +3729,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
 }
 
-@keyframes GRUGingOverIt-hover {
+@keyframes GRUGingOverIt:hover {
   0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
   10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
   30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
@@ -3828,7 +3740,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
 }
 
-@keyframes GRUGingOverIt-Mark-anim {
+@keyframes GRUGingOverItMark-anim {
   5% { transform: scale(0, 0); transform-origin: bottom; }
   37% { transform: scale(0, 0); transform-origin: bottom; }
   40% { transform: scale(1, 0.7); transform-origin: bottom; }
@@ -3837,7 +3749,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   85% { transform: scale(1.4, .1); transform-origin: bottom; }
   90% { transform: scale(0, 0); transform-origin: bottom; }
 }
-@keyframes GRUGingOverIt-Mark-anim-hover {
+@keyframes GRUGingOverItMark-anim-hover {
   5% { transform: scale(0, 0); transform-origin: bottom; }
   37% { transform: scale(0, 0); transform-origin: bottom; }
   40% { transform: scale(1, 0.7); transform-origin: bottom; }
@@ -3858,10 +3770,10 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     top: -10px;
     left: 0px;
     transform: scale(0, 0);
-    animation: GRUGingOverIt-Mark-anim 2s 1;
+    animation: GRUGingOverItMark-anim 2s 1;
 }
 .emote.GRUGingOverIt:hover::before {
-  animation: GRUGingOverIt-Mark-anim-hover 2s infinite;
+  animation: GRUGingOverItMark-anim-hover 2s infinite;
 }
 .emote.HACKERMAN {
   margin-left: -1px;
@@ -3871,18 +3783,18 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   background-repeat: no-repeat;
 }
 @keyframes HACKERMAN-scan {
-  0% { transform: translate(0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0; }
+  0% { transform: translate(0, 0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0; }
   40% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 30px #0F0; }
   50% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 0px #0F0;}
-  50.01% { transform: translate(0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0;}
+  50.01% { transform: translate(0, 0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0;}
   90% { transform: translate(0, -29px);  box-shadow: inset 0 -.5px 0 #0F0, 0 0 30px #0F0; }
   100% { transform: translate(0, -29px); box-shadow: inset 0 -.5px 0 #0F0, 0 0 0 #0F0; }
 }
 @keyframes HACKERMAN-scan-hover {
-  0% { transform: translate(0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0; }
+  0% { transform: translate(0, 0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0; }
   40% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0, 0 0 5px #0F0; }
   50% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 0px #0F0, 0 0 0px #0F0;}
-  50.01% { transform: translate(0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0;}
+  50.01% { transform: translate(0, 0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0;}
   90% { transform: translate(0, -29px);  box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0, 0 0 5px #0F0; }
   100% { transform: translate(0, -29px); box-shadow: inset 0 -.5px 0 #0F0, 0 0 0 #0F0, 0 0 0 #0F0; }
 }
@@ -3906,7 +3818,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   10% { content: "87541 4234 45343 45646 5467 954...";}
   15% { content: "54674 5644 87545 5642 456 35...";}
   20% { content: "9354 5821 5475 3748 456 5...";}
-  25% { content: "9542 865 8534 785 45..."; width: 100%; }
+  25% { content: "9542 865 8534 785 45..."; width 100%; }
   30% { content: "8653 85 853 865 5..."; width: 60%; }
   35% { content: "854 41 37 86..."; width: 50%; }
   40% { content: "492 45 69..."; }
@@ -3925,7 +3837,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   10% { content: "87541 4234 45343 45646 5467 954...";}
   15% { content: "54674 5644 87545 5642 456 35...";}
   20% { content: "9354 5821 5475 3748 456 5...";}
-  25% { content: "9542 865 8534 785 45..."; width: 100%; }
+  25% { content: "9542 865 8534 785 45..."; width 100%; }
   30% { content: "8653 85 853 865 5..."; width: 50%; }
   35% { content: "854 41 37 86...";}
   40% { content: "492 45 69..."; }
@@ -3940,6 +3852,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 .emote.HACKERMAN:before {
   text-align: start;
+  word-wrap: none;
   mix-blend-mode: screen;
   letter-spacing: 1px;
   font-family: "Courier New", Courier, monospace;
@@ -4224,25 +4137,26 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
   90% { transform: translate(.5px, .5px) rotate(0deg); }
   100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
-@keyframes monkaHmmm-anim{
-  0% {transform: rotate(0deg);}
-  10% {transform: rotate(4deg) translate(1px, 1px);}
-  75% {transform: rotate(2deg) translate(1px, 2px);}
-  100% {transform: rotate(0deg);}
+.emote.monkaVirus {
+  width: 35px;
 }
-@keyframes monkaHmmm-hover{
-  0% {transform: rotate(0deg);}
-  10% {transform: rotate(4deg) translate(1px, 1px);}
-  75% {transform: rotate(2deg) translate(1px, 2px);}
-  100% {transform: rotate(0deg);}
+.emote.monkaVirus:nth-child(6n-5) {
+  filter: hue-rotate(68deg);
 }
-.emote.monkaHmmm {
-  transform-origin: 4% ;
-  animation: monkaHmmm-anim 2s 1;
-  transition: all .4s ease;
+.emote.monkaVirus:nth-child(6n-4) {
+  filter: hue-rotate(113deg);
 }
-.emote.monkaHmmm:hover{
-transform: rotate(2deg) translate(1px, 2px);
+.emote.monkaVirus:nth-child(6n-3) {
+  filter: hue-rotate(180deg);
+}
+.emote.monkaVirus:nth-child(6n-2) {
+  filter: hue-rotate(270deg);
+}
+.emote.monkaVirus:nth-child(6n-1) {
+  filter: hue-rotate(310deg);
+}
+.emote.monkaVirus:nth-last-child(5n-2) {
+  background-position: 35px;
 }
 
 .emote.NAILS {
@@ -5241,7 +5155,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 @keyframes SpookerZ-anim {
-    0% { transform: translate(0px, 0px); }
+    0% { transform: translate(0px 0px); }
     25% { transform: translate(0px,4px) }
     75% { transform: rotate(-10deg); }
     100% {
@@ -5250,7 +5164,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     }
 }
 @keyframes SpookerZ-anim-hover {
-    0% { transform: translate(0px, 0px); }
+    0% { transform: translate(0px 0px); }
     25% { transform: translate(0px,4px) }
     75% { transform: rotate(-10deg); }
     100% {
@@ -5601,7 +5515,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 */
 
 /* GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.WEOW:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.WEOW:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
