@@ -240,6 +240,22 @@
         ]
     },
     {
+        "prefix": "BearSleep",
+        "creator": "",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/3.13.1/emotes/6693d29a5392e.png",
+                "name": "6693d29a5392e.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 38
+            }
+        ]
+    },
+    {
         "prefix": "BERN",
         "creator": "",
         "twitch": false,
@@ -3468,6 +3484,22 @@
                 "mime": "image/gif",
                 "height": 32,
                 "width": 32
+            }
+        ]
+    },
+    {
+        "prefix": "tinySuffer",
+        "creator": "",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/3.13.1/emotes/6693d0763fd7d.png",
+                "name": "6693d0763fd7d.png",
+                "mime": "image/png",
+                "height": 30,
+                "width": 30
             }
         ]
     },
