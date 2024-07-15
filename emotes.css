@@ -241,6 +241,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.CAUGHT {
+    background-image: url("66948a8b54475.png");
+    height: 34px;
+    width: 62px;
+}
+.msg-chat .emote.CAUGHT {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.Chatting {
     background-image: url("651f54a0ac864.png");
     height: 32px;
@@ -1050,15 +1059,6 @@
 .msg-chat .emote.Listening {
     margin-top: -33px;
     top: 8.25px;
-}
-.emote.LOVE {
-    background-image: url("5cc0cc2a87ca8.png");
-    height: 30px;
-    width: 51px;
-}
-.msg-chat .emote.LOVE {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.LUL {
     background-image: url("5c2bbcfe2ba44.png");
@@ -1888,12 +1888,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.STATUSQUO {
+.emote.STATUSJOE {
     background-image: url("6693c9585508b.png");
     height: 30px;
     width: 55px;
 }
-.msg-chat .emote.STATUSQUO {
+.msg-chat .emote.STATUSJOE {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1996,12 +1996,30 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.TRUMPED {
-    background-image: url("66934742d8244.png");
+.emote.TRUELOVE {
+    background-image: url("5cc0cc2a87ca8.png");
     height: 30px;
-    width: 63px;
+    width: 51px;
+}
+.msg-chat .emote.TRUELOVE {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.TRUMPED {
+    background-image: url("669479b58554b.png");
+    height: 28px;
+    width: 53px;
 }
 .msg-chat .emote.TRUMPED {
+    margin-top: -28px;
+    top: 7px;
+}
+.emote.UltraHandsomeMan {
+    background-image: url("66947b90b7b45.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.UltraHandsomeMan {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -2766,6 +2784,127 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 .emote.catJAM:hover {
   animation: catJAM-hover infinite steps(188) 6.5s;
+}
+@keyframes CAUGHT-mark {
+    5% {
+        transform: scale(-1, 0); transform-origin: top;  opacity: 0;
+    }
+    30% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    85% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    90% {
+        transform: scale(-1,1); transform-origin: top; opacity: .9;
+    }
+}
+@keyframes CAUGHT-mark-hover {
+    5% {
+        transform: scale(-1, 0); transform-origin: top;  opacity: 0;
+    }
+    30% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    85% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    90% {
+        transform: scale(-1,1); transform-origin: top; opacity: .9;
+    }
+}
+
+.emote.CAUGHT{
+    animation: CAUGHT-wat .3s ease-out;
+    background-repeat: no-repeat;
+    filter:contrast(1.1);
+}
+
+.emote.CAUGHT:hover {
+    animation: CAUGHT-wat-hover .3s ease;
+    background-repeat: no-repeat;
+}
+
+.emote.CAUGHT:before {
+    content: "💧";
+    text-indent: 0;
+    font-size: 8px;
+    line-height: initial;
+    position: absolute;
+    opacity: 0;
+    top: 2px;
+    left: 36px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    transform: scaleX(-1);
+    animation: CAUGHT-mark .75s .1s 1 ease-in-out;
+}
+.emote.CAUGHT:hover::before {
+    animation: CAUGHT-mark-hover .75s .1s ease-in-out;
+}
+
+
+@keyframes CAUGHT-wat {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 25px;
+    }
+  
+    70% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+
+ 
+    85% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 5px;
+    }
+
+    100% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+}
+
+@keyframes CAUGHT-wat-hover {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 25px;
+    }
+  
+    70% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+
+    85% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 5px;
+    }
+
+    100% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+}
+
+@keyframes CAUGHT-anim {
+   0% { transform: translate(1px, .2px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.2px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.2deg); }
+  30% { transform: translate(.5px, .2px) rotate(0deg); }
+  40% { transform: translate(.5px, -.2px) rotate(1deg); }
+  50% { transform: translate(-.5px, .5px) rotate(-.2deg); }
+  60% { transform: translate(-.5px, .2px) rotate(0deg); }
+  70% { transform: translate(.5px, .2px) rotate(-.2deg); }
+  80% { transform: translate(-.5px, -.2px) rotate(1deg); }
+  90% { transform: translate(.5px, .2px) rotate(0deg); }
+  100% { transform: translate(.1px, -.2px) rotate(-.2deg); }
+}
+
+@keyframes CAUGHT-hover {
+   0% { transform: translate(1px, .5px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
+  30% { transform: translate(.5px, .5px) rotate(0deg); }
+  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
+  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
+  60% { transform: translate(-.5px, .5px) rotate(0deg); }
+  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
+  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+  90% { transform: translate(.5px, .5px) rotate(0deg); }
+  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
 /*
 #### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
@@ -4150,40 +4289,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 @keyframes Klappa-anim-hover {
   100% { background-position: -76px; }
 }
-@keyframes LOVE-anim {
-    0% { top: -25px; }
-    100% { top: 30px; }
-}
-@keyframes LOVE-hover {
-    0% { top: -25px; }
-    100% { top: 30px; }
-}
-.emote.LOVE:before{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    left:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-}
-.emote.LOVE:after{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    right:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-    animation-delay: 0.25s;
-}
-.emote.LOVE:hover::before {
-    animation: LOVE-hover 0.5s infinite;
-}
-.emote.LOVE:hover::after {
-    animation: LOVE-hover 0.5s infinite;
-    animation-delay: 0.25s;
-}
 @keyframes MALARKEY-anim {
   0% { background-position: 0px; }
   100% { background-position: -1581px; }
@@ -5367,8 +5472,8 @@ background-repeat:no-repeat;
 
 @keyframes SOTRIGGERED-after {
 	0% { transform: scale(0) rotate(0deg); top: 18px; left: 12px; }
-	5% { transform: scale(.75) rotate(-50deg); top: 12px; left: 12px; }  
-	30% { transform: scale(1) rotate(-200deg); top: 2px; left: 4px; } 
+	5% { transform: scale(.62) rotate(-50deg); top: 12px; left: 12px; }  
+	30% { transform: scale(.8) rotate(-200deg); top: 2px; left: 4px; } 
 	100% { transform: scale(.5) rotate(-350deg);  top: 16px; left: -6px; }
 }
 @keyframes SOTRIGGERED-hover-after {
@@ -5555,6 +5660,40 @@ background-repeat:no-repeat;
 }
 .emote.TRIAD:hover {
   animation: TRIAD-hover 4s steps(120) infinite;
+}
+@keyframes TRUELOVE-anim {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+@keyframes TRUELOVE-hover {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+.emote.TRUELOVE:before{
+    content: "💗";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    left:-3px;
+    top:-25px;
+    animation: TRUELOVE-anim 0.5s 4;
+}
+.emote.TRUELOVE:after{
+    content: "💗";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    right:-3px;
+    top:-25px;
+    animation: TRUELOVE-anim 0.5s 4;
+    animation-delay: 0.25s;
+}
+.emote.TRUELOVE:hover::before {
+    animation: TRUELOVE-hover 0.5s infinite;
+}
+.emote.TRUELOVE:hover::after {
+    animation: TRUELOVE-hover 0.5s infinite;
+    animation-delay: 0.25s;
 }
 .emote.WEEWOO {
     background-position: 0px;
