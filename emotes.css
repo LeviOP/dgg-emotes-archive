@@ -242,9 +242,9 @@
     top: 7.5px;
 }
 .emote.CAUGHT {
-    background-image: url("66948a8b54475.png");
+    background-image: url("6694ce36ead36.png");
     height: 34px;
-    width: 62px;
+    width: 63px;
 }
 .msg-chat .emote.CAUGHT {
     margin-top: -34px;
@@ -287,13 +287,13 @@
     top: 8px;
 }
 .emote.Clueless {
-    background-image: url("66596e3d361e1.png");
-    height: 32px;
-    width: 35px;
+    background-image: url("6694d42888e84.png");
+    height: 34px;
+    width: 38px;
 }
 .msg-chat .emote.Clueless {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.COGGERS {
     background-image: url("65f6c4a6484eb.png");
@@ -1934,13 +1934,13 @@
     top: 8px;
 }
 .emote.temmieDank {
-    background-image: url("6611326d5a5a4.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("6694ce835624f.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.temmieDank {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TF {
     background-image: url("660cc4785d136.png");
@@ -2428,9 +2428,8 @@
     animation: AYAYA-anim-hover 0.7s infinite;
 }
 
-
 .emote.BearSleep{
-    animation: BearSleep-sleep 5s infinite ;
+    animation: BearSleep-sleep 5s 20;
     filter: contrast(1.15) saturate(1.05);     padding-right: 48px;
 background-repeat:no-repeat;   
 transition:all 2s;  
@@ -2531,7 +2530,7 @@ transition:all 2s;
     top: 0px;
     left: 24px; 
     transform: scale(0,0); 
-    animation: BearSleep-mark 3s 20 ease-in-out; transition:all 2s;  
+    animation: BearSleep-mark 3s 10 ease-in-out; transition:all 2s;  
 
 }
 .emote.BearSleep:hover::before {
@@ -2945,7 +2944,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
     position: absolute;
     opacity: 0;
     top: 2px;
-    left: 36px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    left: 31px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
     transform: scaleX(-1);
     animation: CAUGHT-mark .75s .1s 1 ease-in-out;
 }
@@ -5687,17 +5686,6 @@ background-repeat:no-repeat;
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
 }
-/*
-.msg-chat.msg-user[data-username="xenathewitcher"]{
-     color: #080808;
-     visibility: hidden;
-}
-
-.msg-chat.msg-user[data-username="mewlies"]{
-     color: #080808;
-     visibility: hidden;
-}
-*/
 .emote.TF{
     background-position: left center;
     background-repeat: no-repeat;
