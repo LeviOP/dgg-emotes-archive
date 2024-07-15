@@ -242,9 +242,9 @@
     top: 7.5px;
 }
 .emote.CAUGHT {
-    background-image: url("6694ce36ead36.png");
+    background-image: url("66948a8b54475.png");
     height: 34px;
-    width: 63px;
+    width: 62px;
 }
 .msg-chat .emote.CAUGHT {
     margin-top: -34px;
@@ -287,13 +287,13 @@
     top: 8px;
 }
 .emote.Clueless {
-    background-image: url("6694d42888e84.png");
-    height: 34px;
-    width: 38px;
+    background-image: url("66596e3d361e1.png");
+    height: 32px;
+    width: 35px;
 }
 .msg-chat .emote.Clueless {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.COGGERS {
     background-image: url("65f6c4a6484eb.png");
@@ -1934,13 +1934,13 @@
     top: 8px;
 }
 .emote.temmieDank {
-    background-image: url("6694ce835624f.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("6611326d5a5a4.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.temmieDank {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.TF {
     background-image: url("660cc4785d136.png");
@@ -2427,117 +2427,6 @@
 .emote.AYAYA:hover {
     animation: AYAYA-anim-hover 0.7s infinite;
 }
-
-.emote.BearSleep{
-    animation: BearSleep-sleep 5s 20;
-    filter: contrast(1.15) saturate(1.05);     padding-right: 48px;
-background-repeat:no-repeat;   
-transition:all 2s;  
-}
-
-.emote.BearSleep:hover {
-    animation: BearSleep-sleep-hover 2s ease infinite; transition:all 2s;  
-
-}
-
-
-@keyframes BearSleep-sleep {
-     0% {
-        transform: scaleY(.95); transform-origin: bottom;
-    }
-    50% {
-        transform: scaleY(1.05); transform-origin: bottom;
-    }
-    100% {
-        transform: scaleY(.95); transform-origin: bottom;
-    }
-}
-
-@keyframes BearSleep-sleep-hover {
-     0% {
-        transform: scaleY(.9); transform-origin: bottom;
-    }
-    50% {
-        transform: scaleY(1.1); transform-origin: bottom;
-    }
-    100% {
-        transform: scaleY(.9); transform-origin: bottom;
-    }
-}
-
-
-
-
-
-
-
-
-@keyframes BearSleep-mark {
-    0% {
-        transform: scaleY(0) translate(-5px, 0px) rotate(30deg); transform-origin: bottom left;
-    }
-    5% {
-        transform: scaleY(1) translate(2px, -3px) rotate(15deg); transform-origin: bottom left;
-    }
-    30% {
-        transform: scaleY(1) translate(2px, -2px) rotate(5deg); transform-origin: bottom left;
-    }
-    65% {
-        transform: scaleY(1) translate(0px, -7px) rotate(25deg); transform-origin: bottom left;
-    }
-    95% {
-        transform: scaleY(1) translate(0px, -4px) rotate(15deg); transform-origin: bottom left;
-    }
-    98% {
-        transform: scaleY(1) translate(1px, -6px) rotate(25deg); transform-origin: bottom left;
-    }
-    100% {
-        transform: scaleY(1) translate(2px, -90px) rotate(50deg); transform-origin: bottom left; 
-    }
-}
-@keyframes BearSleep-mark-hover {
-    0% {
-        transform: scaleY(0) translate(-5px, 0px) rotate(30deg); transform-origin: bottom left;
-    }
-    5% {
-        transform: scaleY(1) translate(2px, -3px) rotate(15deg); transform-origin: bottom left;
-    }
-    30% {
-        transform: scaleY(1) translate(2px, -2px) rotate(5deg); transform-origin: bottom left;
-    }
-    65% {
-        transform: scaleY(1) translate(0px, -7px) rotate(25deg); transform-origin: bottom left;
-    }
-    95% {
-        transform: scaleY(1) translate(0px, -4px) rotate(15deg); transform-origin: bottom left;
-    }
-    98% {
-        transform: scaleY(1) translate(1px, -6px) rotate(25deg); transform-origin: bottom left;
-    }
-    100% {
-        transform: scaleY(1) translate(2px, -90px) rotate(50deg); transform-origin: bottom left; 
-    }
-}
-
-.emote.BearSleep:before {
-    font-style: italic;
-    content: "💤";
-    text-indent: 0;
-    font-size: 16px;
-    line-height: initial;
-    position: absolute;
-    opacity: 1;
-    top: 0px;
-    left: 24px; 
-    transform: scale(0,0); 
-    animation: BearSleep-mark 3s 10 ease-in-out; transition:all 2s;  
-
-}
-.emote.BearSleep:hover::before {
-    animation: BearSleep-mark-hover 2s infinite ease; transition:all 2s;  
-
-}
-
 @keyframes BERN-anim {
   100% {background-position: -1860px; }
 }
@@ -2944,7 +2833,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
     position: absolute;
     opacity: 0;
     top: 2px;
-    left: 31px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    left: 36px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
     transform: scaleX(-1);
     animation: CAUGHT-mark .75s .1s 1 ease-in-out;
 }
@@ -5686,6 +5575,17 @@ background-repeat:no-repeat;
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
 }
+/*
+.msg-chat.msg-user[data-username="xenathewitcher"]{
+     color: #080808;
+     visibility: hidden;
+}
+
+.msg-chat.msg-user[data-username="mewlies"]{
+     color: #080808;
+     visibility: hidden;
+}
+*/
 .emote.TF{
     background-position: left center;
     background-repeat: no-repeat;
