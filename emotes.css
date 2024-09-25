@@ -170,7 +170,7 @@
     top: 7.5px;
 }
 .emote.BibleThump {
-    background-image: url("66f33083a0d3c.png");
+    background-image: url("653c9a372604d.png");
     height: 30px;
     width: 29px;
 }
@@ -953,7 +953,7 @@
     top: 7.5px;
 }
 .emote.haHAA {
-    background-image: url("66f3317257a9f.png");
+    background-image: url("5d936248ed667.png");
     height: 30px;
     width: 30px;
 }
@@ -998,7 +998,7 @@
     top: 7.5px;
 }
 .emote.HUH {
-    background-image: url("66f3224ec1d70.png");
+    background-image: url("651912afec4b0.png");
     height: 32px;
     width: 1702px;
 }
@@ -1025,7 +1025,7 @@
     top: 7.5px;
 }
 .emote.INREALLIFE {
-    background-image: url("66f330bdd4448.png");
+    background-image: url("6519110cb048e.png");
     height: 32px;
     width: 58px;
 }
@@ -3076,8 +3076,6 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.catJAM:hover {
   animation: catJAM-hover infinite steps(188) 6.5s;
 }
-
-//fuk u 
 @keyframes CAUGHT-mark {
     5% {
         transform: scale(-1, 0); transform-origin: top;  opacity: 0;
