@@ -131,15 +131,15 @@
         "prefix": "Askers",
         "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.1.1/emotes/66596cb5db931.png",
-                "name": "66596cb5db931.png",
+                "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbc883b44b8.png",
+                "name": "66fbc883b44b8.png",
                 "mime": "image/png",
-                "height": 34,
-                "width": 5544
+                "height": 32,
+                "width": 47
             }
         ]
     },
@@ -2979,15 +2979,15 @@
         "prefix": "OOOO",
         "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 3,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.1.1/emotes/5e75f1c3a21a1.png",
-                "name": "5e75f1c3a21a1.png",
+                "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbc095df46a.png",
+                "name": "66fbc095df46a.png",
                 "mime": "image/png",
-                "height": 28,
-                "width": 588
+                "height": 30,
+                "width": 750
             }
         ]
     },
