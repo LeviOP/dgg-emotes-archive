@@ -2304,6 +2304,22 @@
         ]
     },
     {
+        "prefix": "monkaThink",
+        "creator": "",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.1.1/emotes/66ad4e0ab8b33.png",
+                "name": "66ad4e0ab8b33.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 32
+            }
+        ]
+    },
+    {
         "prefix": "monkaVirus",
         "creator": "",
         "twitch": false,
