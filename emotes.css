@@ -1556,13 +1556,13 @@
     top: 8px;
 }
 .emote.NOSHOT {
-    background-image: url("665ad43c9e90d.png");
-    height: 30px;
-    width: 32px;
+    background-image: url("670285b0815f0.png");
+    height: 36px;
+    width: 46px;
 }
 .msg-chat .emote.NOSHOT {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.NoShotSherlock {
     background-image: url("66ad4e8f0477c.png");
@@ -2508,6 +2508,15 @@
 .msg-chat .emote.CheekerZ {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.Dentge {
+    background-image: url("67028a51ad4a3.png");
+    height: 32px;
+    width: 38px;
+}
+.msg-chat .emote.Dentge {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.FLIPMYBURGER {
     background-image: url("66fba1a7c3439.png");
