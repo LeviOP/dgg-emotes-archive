@@ -2186,13 +2186,13 @@
     top: 8.75px;
 }
 .emote.THATNINJA {
-    background-image: url("66b3f4907a09f.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("67020188befb8.png");
+    height: 34px;
+    width: 62px;
 }
 .msg-chat .emote.THATNINJA {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.TINYING {
     background-image: url("66834fe91db75.gif");
@@ -3111,7 +3111,7 @@ transition:all 2s;
   filter: brightness(.85) sepia(1) contrast(1.2) hue-rotate(-1deg) saturate(5);
 }
 
-.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE, .emote.monkaSMEGA + .emote.BLADE {
+.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE, .emote.monkaS + .emote.BLADE {
   filter: hue-rotate(-80deg) saturate(3) brightness(1.7);
 }
 .emote.HACKERMAN + .emote.BLADE, .emote.MALARKEY + .emote.BLADE, .emote.BERN + .emote.BLADE, .emote.catJAM + .emote.BLADE, .emote.YAM + .emote.BLADE, .emote.JAMSTINY + .emoteBLADE {
@@ -5354,12 +5354,12 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 /* Halloween version made by T9Parker (v1) */
 
-
 .emote.Listening {
-filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .25)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25);
-//animation:heavenly-2 infinite alternate 6s 1s ease;
-transition:all 3s;
+filter: contrast(1) saturate(4) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .25)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25);
+animation:heavenly-test-rise infinite 10s 2.5s ease-out alternate;
+transition:all 13s;
 //transform:rotate(0deg) translate(0px,0px);
+transform:rotate(0deg) translate(0px,0px);
 }
 
 @keyframes heavenly-test-2{
@@ -5373,8 +5373,8 @@ to{transform:  translate(-3px,-12px) rotate(-11deg);}
 }
 
 @keyframes heavenly-test-rise {
-from{filter: contrast(1) saturate(6) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25); transform:rotate(-1deg) translate(-1px,5px);}
-to{filter: contrast(1.1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 12px rgba(255, 255, 255, .55)) brightness(1.25); transform:rotate(-7deg) translate(3px,-8px);}
+from{contrast(1) saturate(4) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .25)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25) transform:rotate(0deg) translate(0px,0px);}
+to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .25)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 18px rgba(255, 255, 255, .25)) brightness(1.5); transform:rotate(-10deg) translate(0px,-7px);}
 }
 /* Halloween version made by FFZ user Spyanide https://www.frankerfacez.com/emoticon/299734-LULUIGI */
 .emote.MALARKEY {
@@ -6971,7 +6971,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     }
 }
 .emote.THATNINJA {
-  width: 32px;
+  width: 64px;
   height: 32px;
   //margin-top: -32px;
   font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
@@ -7033,8 +7033,8 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     line-height: initial;
     position: absolute;
     opacity: 1;
-    top: -10px;
-    left: -5px;
+    top: -16px;
+    left: 26px;
     transform: scale(0, 0);
     animation: THATNINJA-Mark-anim 2s 1;
 }
