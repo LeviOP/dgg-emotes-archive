@@ -359,9 +359,9 @@
     top: 7.5px;
 }
 .emote.ComfyAYA {
-    background-image: url("67028b15ae2af.png");
+    background-image: url("615a7c1dc0427.png");
     height: 32px;
-    width: 32px;
+    width: 34px;
 }
 .msg-chat .emote.ComfyAYA {
     margin-top: -32px;
@@ -683,9 +683,9 @@
     top: 8px;
 }
 .emote.DONTSAYIT {
-    background-image: url("67029c0d7f256.png");
+    background-image: url("66bb1bfaf1b79.png");
     height: 30px;
-    width: 47px;
+    width: 30px;
 }
 .msg-chat .emote.DONTSAYIT {
     margin-top: -30px;
@@ -1041,24 +1041,6 @@
 .msg-chat .emote.HmmStiny {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.Hollow {
-    background-image: url("670299048680f.png");
-    height: 32px;
-    width: 34px;
-}
-.msg-chat .emote.Hollow {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.Hopium {
-    background-image: url("67029cfa3c3f4.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Hopium {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.HUH {
     background-image: url("66f3224ec1d70.png");
@@ -1574,9 +1556,9 @@
     top: 8px;
 }
 .emote.NOSHOT {
-    background-image: url("6702ae4fb4e79.png");
+    background-image: url("670285b0815f0.png");
     height: 36px;
-    width: 60px;
+    width: 46px;
 }
 .msg-chat .emote.NOSHOT {
     margin-top: -36px;
@@ -2393,16 +2375,16 @@
     top: 7.5px;
 }
 .emote.Wowee {
-    background-image: url("67029dd75fff0.png");
-    height: 34px;
-    width: 41px;
+    background-image: url("66fb79ea13ffb.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.Wowee {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.WWWWaiting {
-    background-image: url("67029c2b94b6d.png");
+    background-image: url("66b3134c94205.png");
     height: 32px;
     width: 36px;
 }
@@ -2518,15 +2500,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.AwShit {
-    background-image: url("67028b27e690f.png");
-    height: 36px;
-    width: 45px;
-}
-.msg-chat .emote.AwShit {
-    margin-top: -36px;
-    top: 9px;
-}
 .emote.CheekerZ {
     background-image: url("5d9f61b03d501.png");
     height: 30px;
@@ -2537,13 +2510,13 @@
     top: 7.5px;
 }
 .emote.Dentge {
-    background-image: url("67029c40c30df.png");
-    height: 35px;
-    width: 42px;
+    background-image: url("67028a51ad4a3.png");
+    height: 32px;
+    width: 38px;
 }
 .msg-chat .emote.Dentge {
-    margin-top: -35px;
-    top: 8.75px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.FLIPMYBURGER {
     background-image: url("66fba1a7c3439.png");
@@ -2580,15 +2553,6 @@
 .msg-chat .emote.KING {
     margin-top: -28px;
     top: 7px;
-}
-.emote.LETSGOOO {
-    background-image: url("67028fc0e3592.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.LETSGOOO {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Madge {
     background-image: url("66fc964118856.png");
@@ -5924,100 +5888,6 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
     background-position: -1189px;
   }
 }
-@keyframes NOSHOT-mark {
-    20% {
-        transform: scaleY(0); transform-origin: bottom;
-    }
-    30% {
-        transform: scaleY(1); transform-origin: bottom; 
-    }
-    90% {
-        transform: scaleY(1) translate(2px,-7px); transform-origin: bottom;
-    }
-}
-@keyframes NOSHOT-mark-hover {
-    20% {
-        transform: scaleY(0); transform-origin: bottom;
-    }
-    30% {
-        transform: scaleY(1); transform-origin: bottom; 
-    }
-    90% {
-        transform: scaleY(1) ; transform-origin: bottom;
-    }
-}
-
-.emote.NOSHOT{
-    animation: NOSHOT-wat .55s 3 ease ;
-    background-repeat: no-repeat;
-    filter:contrast(1);
-}
-
-.emote.NOSHOT:hover {
-    animation: NOSHOT-wat-hover .55s ease ;
-    background-repeat: no-repeat;
-}
-
-.emote.NOSHOT:before {
-    font-style: italic;
-    content: "❓";     filter:hue-rotate(120deg);
-    text-indent: 0; 
-    font-size: 16px;
-    line-height: initial;
-    position: absolute;
-    opacity: 1;
-    top: 2px;
-    left: 35px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
-    transform: scale(0, 0);
-    animation: NOSHOT-mark .6s 3 ease;
-rotate:3deg;
-}
-.emote.NOSHOT:hover::before {
-    animation: NOSHOT-mark-hover .6s 3 ease;
-}
-
-
-@keyframes NOSHOT-wat {
-    0% {
-        transform: scaleY(1); transform-origin: bottom; 
-    }
-    25% {
-        transform: scaleY(1.1); transform-origin: bottom; 
-    }
-    40% {
-        transform: scaleY(.95); transform-origin: bottom; 
-    }
-    70% {
-        transform: scaleY(1); transform-origin: bottom; 
-    }
-    71% {
-        transform: scaleY(.95); transform-origin: bottom;
-    }
-    99% {
-        transform: scaleY(1); transform-origin: bottom;
-    }
-}
-
-@keyframes NOSHOT-wat-hover {
-    0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
-    }
-    25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
-    }
-    40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
-    }
-    70% {
-        transform: scaleY(1); transform-origin: bottom;
-    }
-    71% {
-        transform: scaleY(.85); transform-origin: bottom;
-    }
-    99% {
-        transform: scaleY(1); transform-origin: bottom;
-    }
-}
 /* Halloween version made by T9Parker */
 @keyframes OBJECTION-anim {
   0% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(0deg); }
@@ -6743,13 +6613,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 @keyframes SHOCKSTINY-wat {
     0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0px 2px;
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
     }
     25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0px -4px;
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
     }
     40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0px 2px;
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
     }
     70% {
         transform: scaleY(1); transform-origin: bottom;
@@ -6764,13 +6634,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 @keyframes SHOCKSTINY-wat-hover {
     0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0 2px;
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
     }
     25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 -4px;
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
     }
     40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0 2px;
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
     }
     70% {
         transform: scaleY(1); transform-origin: bottom;
@@ -7124,7 +6994,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 @keyframes THATNINJA-anim {
-  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: -22px 12px; }
+  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: -22px 82px; }
   10% {transform: scale3d(1, 1, 1); transform-origin: bottom;  background-position: 0 0;}
   30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
   35% {transform: scale3d(1, 1.20, 1); transform-origin: bottom; }
@@ -8247,43 +8117,6 @@ color:#ffaccc !important;
   animation: GRUGingOverIt-hover 1.28s steps(32) infinite;
 }
 /* Halloween version made by Toblakai_ */
-.emote.LETSGOOO {
-
-  animation: LETSGOOO-anim 0.4s 30;
-background-repeat:no-repeat;
-}
-.emote.LETSGOOO:hover {
-
-  animation: LETSGOOO-hover 0.3s infinite;
-}
-
-@keyframes LETSGOOO-anim {
-   0% { transform: translate(1px, .5px) rotate(0deg); }
-  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
-  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
-  30% { transform: translate(.5px, .5px) rotate(0deg); }
-  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
-  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
-  60% { transform: translate(-.5px, .5px) rotate(0deg); }
-  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
-  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
-  90% { transform: translate(.5px, .5px) rotate(0deg); }
-  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
-}
-
-@keyframes LETSGOOO-hover {
-   0% { transform: translate(1px, .5px) rotate(0deg); }
-  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
-  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
-  30% { transform: translate(.5px, .5px) rotate(0deg); }
-  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
-  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
-  60% { transform: translate(-.5px, .5px) rotate(0deg); }
-  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
-  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
-  90% { transform: translate(.5px, .5px) rotate(0deg); }
-  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
-}
 .emote.nathanThinking {
   //filter: drop-shadow(0px 0px 1px #ffffff);
 }
