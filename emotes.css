@@ -601,6 +601,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.DonkCredit {
+    background-image: url("673f134d4f168.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DonkCredit {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DONTSAYIT {
     background-image: url("6724935cf2f7a.png");
     height: 30px;
@@ -970,6 +979,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Hopium {
+    background-image: url("67029cfa3c3f4.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Hopium {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.HUH {
     background-image: url("66f3224ec1d70.png");
     height: 32px;
@@ -1140,6 +1158,15 @@
 .msg-chat .emote.LandlordW {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.LeHeckinKindStranger {
+    background-image: url("673dd4d07071d.png");
+    height: 25px;
+    width: 25px;
+}
+.msg-chat .emote.LeHeckinKindStranger {
+    margin-top: -25px;
+    top: 6.25px;
 }
 .emote.LeRuse {
     background-image: url("5c2bbcebab235.png");
@@ -1411,15 +1438,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.nathanPepe {
-    background-image: url("665b0bcb365a8.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanPepe {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanTiny1 {
     background-image: url("665ade28c2b3e.png");
     height: 28px;
@@ -1444,15 +1462,6 @@
     width: 28px;
 }
 .msg-chat .emote.nathanWeeb {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanYee {
-    background-image: url("665ade32a2059.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanYee {
     margin-top: -28px;
     top: 7px;
 }
@@ -1518,6 +1527,15 @@
 .msg-chat .emote.NOSHOT {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.NoShotSherlock {
+    background-image: url("66ad4e8f0477c.png");
+    height: 36px;
+    width: 52px;
+}
+.msg-chat .emote.NoShotSherlock {
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.NoTears {
     background-image: url("5c2bbd3411c78.png");
@@ -2042,9 +2060,9 @@
     top: 7.5px;
 }
 .emote.SOTRIGGERED {
-    background-image: url("665a5b6e420fb.png");
+    background-image: url("66938505e5605.png");
     height: 32px;
-    width: 32px;
+    width: 49px;
 }
 .msg-chat .emote.SOTRIGGERED {
     margin-top: -32px;
@@ -5881,10 +5899,12 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 @keyframes SOTRIGGERED-anim {
   0% { transform: rotate(0deg); }
-  30% { transform: rotate(0deg); }
-  40% { transform: rotate(-9deg); }
-  45% { transform: rotate(-6deg); }
-  50% { transform: rotate(5deg); }
+  10% { transform: rotate(-15deg); }
+  25% { transform: rotate(-15deg); }
+  30% { transform: rotate(-30deg); }
+  40% { transform: rotate(10deg); }
+  45% { transform: rotate(-8deg); }
+  50% { transform: rotate(3deg); }
   55% { transform: rotate(0deg); }
   70% { transform: rotate(0deg); }
   75% { transform: rotate(5deg); }
@@ -5894,10 +5914,12 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 @keyframes SOTRIGGERED-hover {
   0% { transform: rotate(0deg); }
-  30% { transform: rotate(0deg); }
-  40% { transform: rotate(-18deg); }
+  10% { transform: rotate(-15deg); }
+  25% { transform: rotate(-15deg); }
+  30% { transform: rotate(-30deg); }
+  40% { transform: rotate(10deg); }
   45% { transform: rotate(-8deg); }
-  50% { transform: rotate(12deg); }
+  50% { transform: rotate(3deg); }
   55% { transform: rotate(0deg); }
   70% { transform: rotate(0deg); }
   75% { transform: rotate(5deg); }
@@ -5941,8 +5963,8 @@ background-repeat:no-repeat;
 	line-height: initial;
 	position: absolute;
 	opacity: 1;
-	top: 16px;
-	left: 12px;
+	top: 22px;
+	left: 38px;
         transform: scale(0);
 	filter: hue-rotate(45deg) brightness(7) saturate(1);
 	animation: SOTRIGGERED-before 1 .55s .55s ease;  
