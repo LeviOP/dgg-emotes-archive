@@ -3,7 +3,7 @@ name: Archive Emotes
 on:
   push:
   schedule:
-  - cron: '*/5 * * * *'
+  - cron: '*/10 * * * *'
 
 jobs:
   scheduled:
