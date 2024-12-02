@@ -227,12 +227,12 @@
         "prefix": "AwShoot",
         "creator": "",
         "twitch": false,
-        "theme": 1,
+        "theme": 2,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.13.2/emotes/67028b27e690f.png",
-                "name": "67028b27e690f.png",
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d173f60323.png",
+                "name": "674d173f60323.png",
                 "mime": "image/png",
                 "height": 36,
                 "width": 45
@@ -4652,6 +4652,38 @@
                 "mime": "image/png",
                 "height": 30,
                 "width": 30
+            }
+        ]
+    },
+    {
+        "prefix": "lookDown",
+        "creator": "",
+        "twitch": false,
+        "theme": 2,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d1aded696d.png",
+                "name": "674d1aded696d.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 32
+            }
+        ]
+    },
+    {
+        "prefix": "lookFortyFiveDegrees",
+        "creator": "",
+        "twitch": false,
+        "theme": 2,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d1ba47f619.png",
+                "name": "674d1ba47f619.png",
+                "mime": "image/png",
+                "height": 38,
+                "width": 41
             }
         ]
     },
