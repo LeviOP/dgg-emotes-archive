@@ -125,7 +125,7 @@
     top: 7.5px;
 }
 .emote.AwShoot {
-    background-image: url("674d173f60323.png");
+    background-image: url("67028b27e690f.png");
     height: 36px;
     width: 45px;
 }
@@ -2617,39 +2617,12 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.lookDown {
-    background-image: url("674d1aded696d.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.lookDown {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.lookFortyFiveDegrees {
-    background-image: url("674d1ba47f619.png");
-    height: 38px;
-    width: 41px;
-}
-.msg-chat .emote.lookFortyFiveDegrees {
-    margin-top: -38px;
-    top: 9.5px;
-}
 .emote.Looking {
     background-image: url("674bfa76179e3.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.Looking {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.lookOverThere {
-    background-image: url("674d1e27814b1.png");
-    height: 32px;
-    width: 72px;
-}
-.msg-chat .emote.lookOverThere {
     margin-top: -32px;
     top: 8px;
 }
