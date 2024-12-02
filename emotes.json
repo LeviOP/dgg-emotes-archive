@@ -3987,12 +3987,12 @@
         "prefix": "TRUELOVE",
         "creator": "",
         "twitch": false,
-        "theme": 2,
+        "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.13.2/emotes/5de1776ddcca8.png",
-                "name": "5de1776ddcca8.png",
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/5cc0cc2a87ca8.png",
+                "name": "5cc0cc2a87ca8.png",
                 "mime": "image/png",
                 "height": 30,
                 "width": 51
@@ -4663,11 +4663,27 @@
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d22a307c89.png",
-                "name": "674d22a307c89.png",
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d1aded696d.png",
+                "name": "674d1aded696d.png",
                 "mime": "image/png",
                 "height": 32,
-                "width": 39
+                "width": 32
+            }
+        ]
+    },
+    {
+        "prefix": "lookFortyFiveDegrees",
+        "creator": "",
+        "twitch": false,
+        "theme": 2,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d1ba47f619.png",
+                "name": "674d1ba47f619.png",
+                "mime": "image/png",
+                "height": 38,
+                "width": 41
             }
         ]
     },
@@ -4688,6 +4704,22 @@
         ]
     },
     {
+        "prefix": "lookOverThere",
+        "creator": "",
+        "twitch": false,
+        "theme": 2,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d1e27814b1.png",
+                "name": "674d1e27814b1.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 72
+            }
+        ]
+    },
+    {
         "prefix": "lookUp",
         "creator": "",
         "twitch": false,
@@ -4704,18 +4736,18 @@
         ]
     },
     {
-        "prefix": "MarioPissing",
-        "creator": "",
+        "prefix": "LOVE",
+        "creator": null,
         "twitch": false,
         "theme": 2,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.13.2/emotes/674bfa305c398.png",
-                "name": "674bfa305c398.png",
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/5de1776ddcca8.png",
+                "name": "5de1776ddcca8.png",
                 "mime": "image/png",
-                "height": 32,
-                "width": 32
+                "height": 30,
+                "width": 51
             }
         ]
     },
