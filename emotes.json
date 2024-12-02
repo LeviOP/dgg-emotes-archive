@@ -4704,6 +4704,22 @@
         ]
     },
     {
+        "prefix": "lookOverThere",
+        "creator": "",
+        "twitch": false,
+        "theme": 2,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/674d1e27814b1.png",
+                "name": "674d1e27814b1.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 72
+            }
+        ]
+    },
+    {
         "prefix": "lookUp",
         "creator": "",
         "twitch": false,
