@@ -4081,17 +4081,17 @@
     },
     {
         "prefix": "WEOW",
-        "creator": "",
+        "creator": "Vindelici",
         "twitch": false,
-        "theme": 1,
+        "theme": 2,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.13.2/emotes/650f6d1ab6bc2.png",
-                "name": "650f6d1ab6bc2.png",
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/61ab4b07a5885.png",
+                "name": "61ab4b07a5885.png",
                 "mime": "image/png",
-                "height": 28,
-                "width": 278
+                "height": 40,
+                "width": 42
             }
         ]
     },
