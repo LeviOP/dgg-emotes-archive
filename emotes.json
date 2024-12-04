@@ -4784,6 +4784,22 @@
         ]
     },
     {
+        "prefix": "SWEEPING",
+        "creator": "cyver",
+        "twitch": false,
+        "theme": 2,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.13.2/emotes/67503393ed953.gif",
+                "name": "67503393ed953.gif",
+                "mime": "image/gif",
+                "height": 32,
+                "width": 96
+            }
+        ]
+    },
+    {
         "prefix": "TRIAD_DAVID",
         "creator": "",
         "twitch": false,
