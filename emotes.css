@@ -97,15 +97,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.AUEGH {
-    background-image: url("6763272555899.png");
-    height: 34px;
-    width: 34px;
-}
-.msg-chat .emote.AUEGH {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Aware {
     background-image: url("656a493e53c2f.png");
     height: 32px;
@@ -2275,15 +2266,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.VeryPog {
-    background-image: url("6763259297c6c.png");
-    height: 34px;
-    width: 33px;
-}
-.msg-chat .emote.VeryPog {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.WarmWaterPort {
     background-image: url("66c12f88a37b4.png");
     height: 30px;
@@ -2509,15 +2491,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Cabge {
-    background-image: url("6757ba4c4e133.png");
-    height: 30px;
-    width: 42px;
-}
-.msg-chat .emote.Cabge {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.CheekerZ {
     background-image: url("5de17e06dcea3.png");
     height: 30px;
@@ -2733,6 +2706,15 @@
 .msg-chat .emote.triHarder {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.VeryPog {
+    background-image: url("66fb942febbdf.png");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.VeryPog {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.Yoda1 {
     background-image: url("5fc82336edf0c.png");
