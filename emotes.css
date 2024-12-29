@@ -6842,7 +6842,8 @@ background-repeat:no-repeat;
        height: 0px;
        width: 0px;
 }
-[data-username="yunidev"] .emote.Cabge {
+[data-username="hohohaha"] .emote.Cabge {
+       animation: HIDE 10s infinite linear;
        height: 0px;
        width: 0px;
 }
