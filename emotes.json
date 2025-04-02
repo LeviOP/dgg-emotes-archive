@@ -4576,6 +4576,22 @@
         ]
     },
     {
+        "prefix": "BlackGuyLaptop",
+        "creator": "",
+        "twitch": false,
+        "theme": 5,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecaa7a6fa1d.gif",
+                "name": "67ecaa7a6fa1d.gif",
+                "mime": "image/gif",
+                "height": 32,
+                "width": 57
+            }
+        ]
+    },
+    {
         "prefix": "BLUBBERS",
         "creator": "MrGemzar",
         "twitch": false,
