@@ -4560,6 +4560,22 @@
         ]
     },
     {
+        "prefix": "bepis",
+        "creator": "",
+        "twitch": false,
+        "theme": 5,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecbde509eb8.png",
+                "name": "67ecbde509eb8.png",
+                "mime": "image/png",
+                "height": 35,
+                "width": 35
+            }
+        ]
+    },
+    {
         "prefix": "BlackGuyLaptop",
         "creator": "",
         "twitch": false,
@@ -5452,6 +5468,22 @@
                 "mime": "image/png",
                 "height": 32,
                 "width": 32
+            }
+        ]
+    },
+    {
+        "prefix": "SUMMON",
+        "creator": "",
+        "twitch": false,
+        "theme": 5,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecc4c3854df.gif",
+                "name": "67ecc4c3854df.gif",
+                "mime": "image/gif",
+                "height": 32,
+                "width": 56
             }
         ]
     },
