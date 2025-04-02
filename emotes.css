@@ -2563,6 +2563,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.bepis {
+    background-image: url("67ecbde509eb8.png");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.bepis {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.BlackGuyLaptop {
     background-image: url("67ecae9488cbe.gif");
     height: 32px;
@@ -2769,6 +2778,15 @@
 .msg-chat .emote.Hamster_Hawk {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.IDidntKnowThat {
+    background-image: url("67ecc944674a8.png");
+    height: 35px;
+    width: 47px;
+}
+.msg-chat .emote.IDidntKnowThat {
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.ImDone {
     background-image: url("660aa9f7e65c0.png");
@@ -3064,6 +3082,15 @@
     width: 32px;
 }
 .msg-chat .emote.SUCKS {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.SUMMON {
+    background-image: url("67ecc4c3854df.gif");
+    height: 32px;
+    width: 56px;
+}
+.msg-chat .emote.SUMMON {
     margin-top: -32px;
     top: 8px;
 }
