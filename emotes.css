@@ -2267,7 +2267,7 @@
     top: 8.75px;
 }
 .emote.TRUELOVE {
-    background-image: url("62beeb7f21cdb.png");
+    background-image: url("5cc0cc2a87ca8.png");
     height: 30px;
     width: 51px;
 }
@@ -2589,6 +2589,15 @@
 .msg-chat .emote.GatoPls {
     margin-top: -38px;
     top: 9.5px;
+}
+.emote.LOVE {
+    background-image: url("62beeb7f21cdb.png");
+    height: 30px;
+    width: 51px;
+}
+.msg-chat .emote.LOVE {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.mrmH1 {
     background-image: url("665a5ccb04ebf.png");
@@ -6259,13 +6268,6 @@ background-repeat:no-repeat;
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
-/* PRIDE HEARTS */
-.emote.TRUELOVE::after, .emote.TRUELOVE::before {
-    background: linear-gradient(90deg, #D12229 25%,  #F68A1E 27%, #F68A1E 36.5%, #FDE01A 36.5%, #FDE01A 48%, #007940 48%, #007940 61.5%, #24408E 61.5%, #24408E 73%,  #732982 73%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
@@ -7298,3 +7300,44 @@ background-repeat:no-repeat;
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
+@keyframes LOVE-anim {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+@keyframes LOVE-hover {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+.emote.LOVE:before{
+    content: "💗";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    left:-3px;
+    top:-25px;
+    animation: LOVE-anim 0.5s 4;
+}
+.emote.LOVE:after{
+    content: "💗";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    right:-3px;
+    top:-25px;
+    animation: LOVE-anim 0.5s 4;
+    animation-delay: 0.25s;
+}
+.emote.LOVE:hover::before {
+    animation: LOVE-hover 0.5s infinite;
+}
+.emote.LOVE:hover::after {
+    animation: LOVE-hover 0.5s infinite;
+    animation-delay: 0.25s;
+}
+/* PRIDE HEARTS */
+.emote.LOVE::after, .emote.LOVE::before {
+    background: linear-gradient(90deg, #D12229 25%,  #F68A1E 27%, #F68A1E 36.5%, #FDE01A 36.5%, #FDE01A 48%, #007940 48%, #007940 61.5%, #24408E 61.5%, #24408E 73%,  #732982 73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
