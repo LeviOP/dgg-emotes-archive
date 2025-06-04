@@ -287,13 +287,13 @@
     top: 7.5px;
 }
 .emote.Cabge {
-    background-image: url("683fb42275520.png");
-    height: 31px;
-    width: 43px;
+    background-image: url("67ebd9718872b.png");
+    height: 30px;
+    width: 42px;
 }
 .msg-chat .emote.Cabge {
-    margin-top: -31px;
-    top: 7.75px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.catJAM {
     background-image: url("665b06bfcc744.png");
@@ -818,13 +818,13 @@
     top: 8px;
 }
 .emote.Fishge {
-    background-image: url("683fb41fadb97.png");
-    height: 29px;
-    width: 38px;
+    background-image: url("67ebd8be81102.png");
+    height: 28px;
+    width: 37px;
 }
 .msg-chat .emote.Fishge {
-    margin-top: -29px;
-    top: 7.25px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.FISHIES {
     background-image: url("660a76abae9df.gif");
@@ -2049,15 +2049,6 @@
 .msg-chat .emote.Slugstiny {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.Slumlord {
-    background-image: url("5c2bbd81423bf.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Slumlord {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Smadge {
     background-image: url("673dabd79b13c.png");
@@ -5833,42 +5824,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.Slugstiny:hover {
   background-position: 30px 0;
-}
-@keyframes Slumlord-anim {
-    0% { top: -25px; }
-    100% { top: 30px; }
-}
-@keyframes Slumlord-anim-hover {
-    0% { top: -25px; }
-    100% { top: 30px; }
-}
-.emote.Slumlord:before{
-    content: "💰";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    line-height: initial;
-    left:-3px;
-    top:-25px;
-    animation: Slumlord-anim 0.5s 4;
-}
-.emote.Slumlord:after{
-    content: "💰";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    line-height: initial;
-    right:-3px;
-    top:-25px;
-    animation: Slumlord-anim 0.5s 4;
-    animation-delay: 0.25s;
-}
-.emote.Slumlord:hover::before {
-    animation: Slumlord-anim-hover 0.5s infinite;
-}
-.emote.Slumlord:hover::after {
-    animation: Slumlord-anim-hover 0.5s infinite;
-    animation-delay: 0.25s;
 }
 @keyframes SMASHit-anim {
   0% { background-position: 0px; }
