@@ -3553,9 +3553,9 @@
     },
     {
         "prefix": "SCHIZO",
-        "creator": "",
+        "creator": "PRSEK",
         "twitch": false,
-        "theme": 4,
+        "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
@@ -3953,9 +3953,9 @@
     },
     {
         "prefix": "TeaTime",
-        "creator": "",
+        "creator": "prsek",
         "twitch": false,
-        "theme": 4,
+        "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
