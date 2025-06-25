@@ -2867,7 +2867,7 @@
         "prefix": "NOSHOT",
         "creator": "",
         "twitch": false,
-        "theme": 4,
+        "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
@@ -4620,6 +4620,22 @@
                 "mime": "image/png",
                 "height": 30,
                 "width": 22
+            }
+        ]
+    },
+    {
+        "prefix": "COKEJAW",
+        "creator": "",
+        "twitch": false,
+        "theme": 4,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.26.0/emotes/685c1d295df0a.gif",
+                "name": "685c1d295df0a.gif",
+                "mime": "image/gif",
+                "height": 32,
+                "width": 23
             }
         ]
     },
