@@ -1984,6 +1984,22 @@
         ]
     },
     {
+        "prefix": "IMPRESSED",
+        "creator": "Zilkata",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.26.0/emotes/6850dee22e693.png",
+                "name": "6850dee22e693.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 28
+            }
+        ]
+    },
+    {
         "prefix": "INFESTINY",
         "creator": "",
         "twitch": false,
@@ -2252,6 +2268,22 @@
                 "mime": "image/png",
                 "height": 34,
                 "width": 38
+            }
+        ]
+    },
+    {
+        "prefix": "LIES",
+        "creator": "",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.26.0/emotes/665adda195c6d.png",
+                "name": "665adda195c6d.png",
+                "mime": "image/png",
+                "height": 30,
+                "width": 45
             }
         ]
     },
@@ -3898,22 +3930,6 @@
                 "url": "https://cdn.destiny.gg/4.26.0/emotes/6592300303249.png",
                 "name": "6592300303249.png",
                 "mime": "image/png",
-                "height": 32,
-                "width": 43
-            }
-        ]
-    },
-    {
-        "prefix": "SpeedLaugh",
-        "creator": "",
-        "twitch": false,
-        "theme": 1,
-        "minimumSubTier": 0,
-        "image": [
-            {
-                "url": "https://cdn.destiny.gg/4.26.0/emotes/68635c5ddfa12.gif",
-                "name": "68635c5ddfa12.gif",
-                "mime": "image/gif",
                 "height": 32,
                 "width": 43
             }
