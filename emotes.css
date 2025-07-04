@@ -215,13 +215,13 @@
     top: 8px;
 }
 .emote.BLADE {
-    background-image: url("66865111aa66e.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("6687a32a80ac9.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.BLADE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Bleh {
     background-image: url("66b31270c2e04.png");
@@ -710,13 +710,13 @@
     top: 8px;
 }
 .emote.DuckerZ {
-    background-image: url("672aae95cd9c1.png");
-    height: 32px;
-    width: 54px;
+    background-image: url("5c2bbc5803fc3.png");
+    height: 26px;
+    width: 56px;
 }
 .msg-chat .emote.DuckerZ {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -26px;
+    top: 6.5px;
 }
 .emote.DURRSTINY {
     background-image: url("665b0bff07c78.png");
@@ -1183,15 +1183,6 @@
     width: 35px;
 }
 .msg-chat .emote.JOEVER {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.JulyFourth {
-    background-image: url("66864d6d9b88d.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.JulyFourth {
     margin-top: -32px;
     top: 8px;
 }
@@ -2402,7 +2393,7 @@
     top: 7.5px;
 }
 .emote.TRUMPED {
-    background-image: url("649f7775d052e.png");
+    background-image: url("669479b58554b.png");
     height: 28px;
     width: 53px;
 }
@@ -3060,6 +3051,29 @@ filter: contrast(1) saturate(1) brightness(1.25);
   transform-origin: -36px 32px;
   transform: rotate(10deg);
   animation: none;
+}
+
+.msg-chat.msg-user .user.flair8 ~ .text .emote.BLADE { 
+  filter: brightness(2) hue-rotate(-90deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(80deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(160deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair13 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(210deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE {
+  animation: BLADE-t5 2.975s infinite linear;
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE {
+    animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-out, BLADE-hold 0.325s 1 ease-out, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE:hover {
+  animation: none, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
 }
 
 @keyframes GIGABLADE {
@@ -7462,44 +7476,6 @@ background-repeat:no-repeat;
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
-/* @keyframes TRUMPED-anim { 
-  0%, 100% { background-position: -53px 0; }
-  5%, 15%, 35%, 60%, 80%, 95% { transform: translate(1px, .5px); }
-  20%, 30%, 40%, 50%, 70%, 90% { transform: translate(-.5px, -1px); }
-  10%, 25%, 45%, 55%, 75%, 85% { transform: translate(-1px, .5px); }
-}
-@keyframes TRUMPED-filters {
-  0%, 100% { filter: sepia(1) hue-rotate(-45deg) contrast(1.8) saturate(3.5); }
-}
-@keyframes TRUMPED-filters2 {
-  0%, 100% { filter: sepia(1) hue-rotate(-160deg) contrast(1.8) saturate(3.5); }
-}
-@keyframes TRUMPED-hover { 
-  0%, 100% { background-position: -53px 0; }
-  5%, 15%, 35%, 60%, 80%, 95% { transform: translate(1px, .5px); }
-  20%, 30%, 40%, 50%, 70%, 90% { transform: translate(-.5px, -1px); }
-  10%, 25%, 45%, 55%, 75%, 85% { transform: translate(-1px, .5px); }
-}
-@keyframes TRUMPED-hover-filters {
-  0%, 100% { filter: sepia(1) hue-rotate(-45deg) contrast(1.8) saturate(3.5); }
-}
-.emote.TRUMPED:nth-of-type(2n) {
-  width: 53px;
-  height: 28px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-    animation: TRUMPED-anim .45s 4, TRUMPED-filters .45s 4;
-}
-.emote.TRUMPED:nth-of-type(2n + 1) {
-  width: 53px;
-  height: 28px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-    animation: TRUMPED-anim .45s 4, TRUMPED-filters2 .45s 4;
-}
-.emote.TRUMPED:hover {
-  animation: TRUMPED-hover .5s infinite, TRUMPED-hover-filters .5s infinite;
-} */
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
