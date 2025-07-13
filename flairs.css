@@ -308,13 +308,6 @@
   background: var(--rainbow-gradient);
 }
 
-.flair.vip {
-  display: none !important;
-}
-.user.vip {
-  color: #DB4C1C;
-}
-
 .flair.flair18 {
   background-image: url("5e7eb5881b894.png");
   height: 16px;
