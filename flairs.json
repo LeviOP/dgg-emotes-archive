@@ -110,7 +110,7 @@
     {
         "label": "Verified",
         "name": "flair20",
-        "description": "This is the real one, others are fake",
+        "description": "This is the real one, others are fake, useful for employees/non streamer orbiters",
         "hidden": false,
         "priority": 3,
         "color": "",
@@ -704,10 +704,10 @@
     {
         "label": "Moderator",
         "name": "moderator",
-        "description": null,
+        "description": "Moderators of the chatroom",
         "hidden": true,
         "priority": 127,
-        "color": "",
+        "color": "#e77715",
         "rainbowColor": false,
         "image": [
             {
