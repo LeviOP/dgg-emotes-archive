@@ -28,9 +28,6 @@
 .flair.moderator {
   display: none !important;
 }
-.user.moderator {
-  color: #e77715;
-}
 
 .flair.flair2 {
   background-image: url("flair2.png");
