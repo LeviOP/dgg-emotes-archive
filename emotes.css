@@ -835,6 +835,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.FellForItAgain {
+    background-image: url("688e55760cf82.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.FellForItAgain {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.FerretLOL {
     background-image: url("5c2bbc8b86ce5.png");
     height: 30px;
