@@ -1488,6 +1488,22 @@
         ]
     },
     {
+        "prefix": "FellForItAgain",
+        "creator": "PRSEK",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.27.0/emotes/688e55760cf82.png",
+                "name": "688e55760cf82.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 32
+            }
+        ]
+    },
+    {
         "prefix": "FerretLOL",
         "creator": "",
         "twitch": false,
