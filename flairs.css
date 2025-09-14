@@ -67,10 +67,7 @@
 }
 
 .flair.flair19 {
-  background-image: url("flair19.png");
-  height: 16px;
-  width: 16px;
-  order: 127;
+  display: none !important;
 }
 
 .flair.flair16 {
