@@ -513,14 +513,14 @@
     },
     {
         "prefix": "Cabge",
-        "creator": "IOBOBC",
+        "creator": "cweetron",
         "twitch": false,
-        "theme": 3,
+        "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.35.0/emotes/68dd4864b5e7a.png",
-                "name": "68dd4864b5e7a.png",
+                "url": "https://cdn.destiny.gg/4.35.0/emotes/68b45a3ec6fe2.png",
+                "name": "68b45a3ec6fe2.png",
                 "mime": "image/png",
                 "height": 30,
                 "width": 84
@@ -3927,11 +3927,11 @@
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.35.0/emotes/68dd4cf760325.png",
-                "name": "68dd4cf760325.png",
+                "url": "https://cdn.destiny.gg/4.35.0/emotes/66fba568562ec.png",
+                "name": "66fba568562ec.png",
                 "mime": "image/png",
                 "height": 32,
-                "width": 39
+                "width": 51
             }
         ]
     },
