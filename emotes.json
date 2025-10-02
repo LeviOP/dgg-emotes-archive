@@ -2145,7 +2145,7 @@
     },
     {
         "prefix": "JAMSTINY",
-        "creator": "",
+        "creator": null,
         "twitch": false,
         "theme": 3,
         "minimumSubTier": 0,
