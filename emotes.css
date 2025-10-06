@@ -800,7 +800,7 @@
     top: 9px;
 }
 .emote.FeelsGimiMan {
-    background-image: url("665add3c69263.png");
+    background-image: url("68e3ede3eb4c5.png");
     height: 32px;
     width: 32px;
 }
@@ -1169,13 +1169,13 @@
     top: 8px;
 }
 .emote.INFESTINY {
-    background-image: url("68caf683c03d7.png");
-    height: 30px;
-    width: 41px;
+    background-image: url("68e3fc993a0d4.gif");
+    height: 32px;
+    width: 43px;
 }
 .msg-chat .emote.INFESTINY {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.INREALLIFE {
     background-image: url("66f330bdd4448.png");
@@ -3397,9 +3397,11 @@ transition:all 2s;
 .emote.REE + .emote.BLADE {
   filter: hue-rotate(135deg) saturate(3);
 }
+/* ===BYPASSED FOR CUSTOM CSS IN COMFYLILY EMOTE===
 .emote.ComfyLily + .emote.BLADE {
   filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
-}
+}*/
+
 /*
 .emote.ApeHands+.emote.BLADE {
     filter: invert(.95) saturate(0) brightness(2);
@@ -3437,6 +3439,7 @@ transition:all 2s;
 .emote.Kappa + .emote.BLADE:hover, .emote.OhKrappa + .emote.BLADE:hover, .emote.RaveDoge + .emote.BLADE:hover, .emote.DANKMEMES + .emote.BLADE:hover, .emote.Shroomstiny + .emote.BLADE:hover, .emote.DappaKappa + .emote.BLADE:hover,  .emote.nathanDank + .emote.BLADE:hover {
   animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
 }
+
 
 @keyframes Bleh-anim{
   0% {transform: rotate(0deg) translate(0, 0);}
@@ -4345,76 +4348,81 @@ transition:all 2s;
 .emote.COGGERS:hover {
     animation: COGGERS-anim-hover 0.4s infinite linear;
 }
-/* Done by melun & legendarypotatoe*/
-
 /*
 ======= Laser =======
+===== compatible with default laser setup =====
 */
-.ComfyLily + .emote.Blade {
-  //background-image: url("https://i.imgur.com/XrqsOoo.png");
-  width: 1632px;
+
+.ComfyLily + .emote.BLADE:has(+ .emote.BLADE) {
+  transform: translate(2px, 7px) rotate(7deg);
+  animation: BLADE-lily-anim 5s steps(100) forwards;
+}
+
+.ComfyLily + .emote.BLADE:has(+ .emote.BLADE):hover {
+  animation: BLADE-lily-anim-hover 5s steps(100) infinite;
+}
+
+.ComfyLily + .emote.BLADE {
+  background-image: url("https://files.catbox.moe/3cc4vt.png"); 
+  width: 48px;
   height: 32px;
   top: 7px;
   left: -16px;
+  margin-left: 0;
   margin-right: -16px;
+  background-position: 0;
+  transform: translate(0px, 4px);
   font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  animation: BLADE-lily-anim 5s steps(100) forwards;
 }
 
-
-.ComfyLily + .emote.Blade {
-    width: 48px;
-    height: 32px;
-    animation: Blade-lily-anim 1 steps(34) 1600ms;
+.ComfyLily + .emote.BLADE:hover {
+  background-position: 0;
+  animation: BLADE-lily-anim-hover 5s steps(100) infinite;
 }
 
-.ComfyLily + .emote.Blade:hover {
-    animation: Blade-lily-anim-hover infinite steps(34) 1600ms;
+/* Animation keyframes */
+@keyframes BLADE-lily-anim {
+  100% {
+    background-position: -4800px;
+  }
 }
 
-@keyframes Blade-lily-anim {
-    100% {
-        background-position: -1632px;
-    }
-}
-
-@keyframes Blade-lily-anim-hover {
-    100% {
-        background-position: -1632px;
-    }
+@keyframes BLADE-lily-anim-hover {
+  100% {
+    background-position: -4800px;
+  }
 }
 
 /*
 ===== Lily ======
 */
 .emote.ComfyLily {
-  width: 1140px;
-  height: 34px;
-}
-
-.emote.ComfyLily {
+  background-image: url("https://files.catbox.moe/713qe1.png");
   width: 76px;
   height: 34px;
   transform: scaleX(-1);
+  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
   animation: ComfyLily-anim 600ms steps(15) forwards;
   animation-delay: 600ms;
 }
 
 .emote.ComfyLily:hover {
-    animation: ComfyLily-anim-hover 600ms steps(15) infinite;
+  animation: ComfyLily-anim-hover 600ms steps(15) infinite;
   animation-fill-mode: forwards;
 }
 
-/* Animation for the first 3 frames */
+/* Lily Animation */
 @keyframes ComfyLily-anim {
   100% {
-    background-position: -1140px; /* Move 3 frames forward */
+    background-position: -1140px;
   }
 }
 
 @keyframes ComfyLily-anim-hover {
-    100% {
-        background-position: -1140px;
-    }
+  100% {
+    background-position: -1140px;
+  }
 }
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
