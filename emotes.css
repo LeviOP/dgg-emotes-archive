@@ -9729,16 +9729,17 @@ color:#ffaccc !important;
   transform-origin: 0% 100%;
   transition: all .25s;
   animation:
-    BLICKY-anim steps(51) 1.5s 2 1s,
-    BLICKY-rotate ease-out 4.5s 1 0.15s;
+    BLICKY-anim steps(51) 0.5s 4 1s,
+    BLICKY-rotate ease-out 1.5s 1 0.15s;
 }
 
 .emote.BLICKY:hover {
   transform-origin: 0% 100%;
   transition: all .25s;
+  /* Both sprite AND rotation animation, infinite loop on hover. */
   animation:
-    BLICKY-hover steps(51) 1s infinite 0.15s,
-    BLICKY-hover-rotate ease-out 3.75s infinite 0.15s;
+    BLICKY-hover-anim steps(51) 0.255s infinite 0.15s,
+    BLICKY-hover-rotate ease-out 1.25s infinite 0.15s;
 }
 
 /* Halloween version made by T9Parker */
