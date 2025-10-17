@@ -3105,7 +3105,7 @@
     },
     {
         "prefix": "NoTears",
-        "creator": "",
+        "creator": null,
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
