@@ -5248,6 +5248,22 @@
         ]
     },
     {
+        "prefix": "POPPERS",
+        "creator": " BIWWWIE - 7tv",
+        "twitch": false,
+        "theme": 3,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.35.0/emotes/68fc8b960f3b7.gif",
+                "name": "68fc8b960f3b7.gif",
+                "mime": "image/gif",
+                "height": 32,
+                "width": 32
+            }
+        ]
+    },
+    {
         "prefix": "SoDoge",
         "creator": "T9Parker ",
         "twitch": false,
