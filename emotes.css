@@ -2384,13 +2384,13 @@
     top: 8px;
 }
 .emote.SpookerZ {
-    background-image: url("5c2bbddae0132.png");
-    height: 30px;
-    width: 34px;
+    background-image: url("66fbcb156083b.png");
+    height: 32px;
+    width: 33px;
 }
 .msg-chat .emote.SpookerZ {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Stare {
     background-image: url("68da0d246cbe9.png");
@@ -2907,15 +2907,13 @@
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
   
-.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE,
-.msg-chat.msg-emote[data-combo="2"] .emote.ARRIVE {
+.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE {
   width: 68px;
   background-size: 50px;
   background-position: -8px 4px;
   background-repeat: no-repeat;
 }
-.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE::before,
-.msg-chat.msg-emote[data-combo="2"] .emote.ARRIVE::before {
+.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE::before {
   background: inherit;
   background-position: 0 0;
   background-size: 56px;
