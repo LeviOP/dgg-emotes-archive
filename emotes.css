@@ -395,7 +395,7 @@
     top: 8px;
 }
 .emote.CLASSIC {
-    background-image: url("68dc1cfeb9e2c.png");
+    background-image: url("690b65c049e8e.avif");
     height: 32px;
     width: 41px;
 }
@@ -854,7 +854,7 @@
     top: 8px;
 }
 .emote.FeelsStrongMan {
-    background-image: url("672491ee211d1.png");
+    background-image: url("690b6123c8423.png");
     height: 32px;
     width: 32px;
 }
@@ -1061,7 +1061,7 @@
     top: 8px;
 }
 .emote.guh {
-    background-image: url("690585b25b77c.png");
+    background-image: url("660ab1a309753.png");
     height: 32px;
     width: 32px;
 }
@@ -1115,7 +1115,7 @@
     top: 6.25px;
 }
 .emote.Hmmm {
-    background-image: url("6613ccc34a620.png");
+    background-image: url("690b347dcec12.png");
     height: 32px;
     width: 32px;
 }
@@ -1570,6 +1570,15 @@
     width: 32px;
 }
 .msg-chat .emote.monkaVirus {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.MOPPING {
+    background-image: url("690b569071109.png");
+    height: 32px;
+    width: 40px;
+}
+.msg-chat .emote.MOPPING {
     margin-top: -32px;
     top: 8px;
 }
@@ -2321,7 +2330,7 @@
     top: 8px;
 }
 .emote.Smadge {
-    background-image: url("673dabd79b13c.png");
+    background-image: url("690b5b8d14db3.avif");
     height: 32px;
     width: 42px;
 }
@@ -5749,18 +5758,20 @@ transform: rotate(2deg) translate(1px, 2px);
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
 @keyframes JustCantProveItYet-anim {
+  0% { background-position: 0px; }
   100% { background-position: -6665px; }
 }
 
 @keyframes JustCantProveItYet-hover {
+  0% { background-position: 0px; }
   100% { background-position: -6665px; }
 }
 
 .emote.JustCantProveItYet {
   width: 43px;
-  background-position: 0px;
+  background-position: 43px;
   background-size: 6665px 32px;
-  animation: JustCantProveItYet-anim 6s steps(155) 4;
+  animation: JustCantProveItYet-anim 6s steps(155) 1;
 }
 
 .emote.JustCantProveItYet:hover {
