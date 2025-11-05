@@ -395,7 +395,7 @@
     top: 8px;
 }
 .emote.CLASSIC {
-    background-image: url("690b65c049e8e.avif");
+    background-image: url("68dc1cfeb9e2c.png");
     height: 32px;
     width: 41px;
 }
@@ -854,7 +854,7 @@
     top: 8px;
 }
 .emote.FeelsStrongMan {
-    background-image: url("690b6123c8423.png");
+    background-image: url("672491ee211d1.png");
     height: 32px;
     width: 32px;
 }
@@ -1061,7 +1061,7 @@
     top: 8px;
 }
 .emote.guh {
-    background-image: url("660ab1a309753.png");
+    background-image: url("690585b25b77c.png");
     height: 32px;
     width: 32px;
 }
@@ -1115,7 +1115,7 @@
     top: 6.25px;
 }
 .emote.Hmmm {
-    background-image: url("690b347dcec12.png");
+    background-image: url("6613ccc34a620.png");
     height: 32px;
     width: 32px;
 }
@@ -1570,15 +1570,6 @@
     width: 32px;
 }
 .msg-chat .emote.monkaVirus {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.MOPPING {
-    background-image: url("690b569071109.png");
-    height: 32px;
-    width: 40px;
-}
-.msg-chat .emote.MOPPING {
     margin-top: -32px;
     top: 8px;
 }
@@ -2330,7 +2321,7 @@
     top: 8px;
 }
 .emote.Smadge {
-    background-image: url("690b5b8d14db3.avif");
+    background-image: url("673dabd79b13c.png");
     height: 32px;
     width: 42px;
 }
@@ -5758,20 +5749,18 @@ transform: rotate(2deg) translate(1px, 2px);
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
 @keyframes JustCantProveItYet-anim {
-  0% { background-position: 0px; }
   100% { background-position: -6665px; }
 }
 
 @keyframes JustCantProveItYet-hover {
-  0% { background-position: 0px; }
   100% { background-position: -6665px; }
 }
 
 .emote.JustCantProveItYet {
   width: 43px;
-  background-position: 43px;
+  background-position: 0px;
   background-size: 6665px 32px;
-  animation: JustCantProveItYet-anim 6s steps(155) 1;
+  animation: JustCantProveItYet-anim 6s steps(155) 4;
 }
 
 .emote.JustCantProveItYet:hover {
@@ -6923,16 +6912,6 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
           background-position: -56px;
         }
       }
-[data-username="igor"] .emote.POTATO::before {
-  margin-left: 9px;
-  margin-top: 21px;
-  width: 14px;
-  height: 7px;
-  display: block;
-  transform: rotate(2deg);
-  content: "";
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAHCAYAAAA4R3wZAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZ0lEQVQYlTVOO2vCUBj9bh4SEyqFkMUiCA2KiUNXO9huhrp0UAcnof0d/ox2aEHoEBw6dFQQERczKJXQQECkIsSlSVx8YW9MuYGe7ZzDeaBWq1UbjUa3lUrlTVEUg+M4mE6n4Lou5PN5cBwHZFkGhBAsl8vkYDCoe553QScSiWa73W6Ypvlo2/Y1z/M/PM/PgyCAVCoF+/0eNpvNpa7rTV3Xn/v9/v14PFZRoVD4nM1mV/F4HP6hKMqHLMtfkiSFi8VCnEwmddd1z2maBlIYBMEapdNpB2OcxBjD8XiE0+kU3ZIkCSiKAt/3o9VYLAYkyDAM8X2GBLbbLYRhGIkkeDgcomXCyQLRKAoBxr8RJ4VMLpebG4aRFEUxMhj2bK2VSq8sy9oIoZDjOLHX6zVWK0fleSF6tdvtWEbTtPfhcKgKguAVizfv5fLdi6qq35ZlRc2ZTAaq1epTt9utdTqdB8uylGw2a/4BcwmqnYu/0GoAAAAASUVORK5CYII=");
-}
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
