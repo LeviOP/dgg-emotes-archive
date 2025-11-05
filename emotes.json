@@ -711,9 +711,9 @@
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.36.1/emotes/690b65c049e8e.avif",
-                "name": "690b65c049e8e.avif",
-                "mime": "image/avif",
+                "url": "https://cdn.destiny.gg/4.36.1/emotes/68dc1cfeb9e2c.png",
+                "name": "68dc1cfeb9e2c.png",
+                "mime": "image/png",
                 "height": 32,
                 "width": 41
             }
@@ -1953,17 +1953,17 @@
     },
     {
         "prefix": "hesRight",
-        "creator": "cybervegan",
+        "creator": "",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.36.1/emotes/668264ab2fb2a.png",
-                "name": "668264ab2fb2a.png",
+                "url": "https://cdn.destiny.gg/4.36.1/emotes/690b57ed0b145.png",
+                "name": "690b57ed0b145.png",
                 "mime": "image/png",
-                "height": 30,
-                "width": 37
+                "height": 32,
+                "width": 39
             }
         ]
     },
@@ -2796,22 +2796,6 @@
                 "mime": "image/png",
                 "height": 32,
                 "width": 32
-            }
-        ]
-    },
-    {
-        "prefix": "MOPPING",
-        "creator": "",
-        "twitch": false,
-        "theme": 1,
-        "minimumSubTier": 0,
-        "image": [
-            {
-                "url": "https://cdn.destiny.gg/4.36.1/emotes/690b569071109.png",
-                "name": "690b569071109.png",
-                "mime": "image/png",
-                "height": 32,
-                "width": 40
             }
         ]
     },
@@ -4353,17 +4337,17 @@
     },
     {
         "prefix": "SWEEPING",
-        "creator": "cyver",
+        "creator": "",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.36.1/emotes/67503b275c4d5.gif",
-                "name": "67503b275c4d5.gif",
-                "mime": "image/gif",
-                "height": 30,
-                "width": 90
+                "url": "https://cdn.destiny.gg/4.36.1/emotes/690b569071109.png",
+                "name": "690b569071109.png",
+                "mime": "image/png",
+                "height": 32,
+                "width": 40
             }
         ]
     },
