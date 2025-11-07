@@ -3968,6 +3968,22 @@
         ]
     },
     {
+        "prefix": "shesRight",
+        "creator": "Futanari",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.36.1/emotes/690dedeff0151.png",
+                "name": "690dedeff0151.png",
+                "mime": "image/png",
+                "height": 30,
+                "width": 37
+            }
+        ]
+    },
+    {
         "prefix": "SHOCKSTINY",
         "creator": "cyver",
         "twitch": false,
