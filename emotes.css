@@ -448,6 +448,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ComfyAYA {
+    background-image: url("5fad97de7a0ef.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.ComfyAYA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfyCat {
     background-image: url("645e8c248a9d4.png");
     height: 32px;
@@ -492,6 +501,15 @@
 .msg-chat .emote.ComfyLily {
     margin-top: -32px;
     top: 8px;
+}
+.emote.ComfyRustle {
+    background-image: url("66adb66986cf8.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.ComfyRustle {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.coMMMMfy {
     background-image: url("624e76368b3a9.png");
@@ -627,6 +645,15 @@
 .msg-chat .emote.DankWave {
     margin-top: -32px;
     top: 8px;
+}
+.emote.DappaKappa {
+    background-image: url("665adcfd67837.png");
+    height: 30px;
+    width: 26px;
+}
+.msg-chat .emote.DappaKappa {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.DCOLON {
     background-image: url("6002196ce1fcd.png");
@@ -1466,13 +1493,13 @@
     top: 7.5px;
 }
 .emote.mhm {
-    background-image: url("690525877185f.gif");
-    height: 32px;
-    width: 37px;
+    background-image: url("690f52d51011d.gif");
+    height: 36px;
+    width: 44px;
 }
 .msg-chat .emote.mhm {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.MICROAGGRESSIONS {
     background-image: url("688fb263e34f4.png");
@@ -6132,6 +6159,11 @@ background-position: 0px 10px;
 }
 .emote.TRUMPED + .emote.MALARKEY:hover {
   animation: MALARKEY-shake_r-hover infinite 1.55s, MALARKEY-anim-repeat1 1 steps(10) .5s, MALARKEY-anim-repeat2 infinite steps(14) .7s .5s;
+}
+.emote.mhm {
+  transform-origin: bottom;
+  transform: scale(calc(28/36));
+  filter: hue-rotate(-30deg);
 }
 @keyframes MiyanoHype-anim {
     100% { background-position: -320px }
