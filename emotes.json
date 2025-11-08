@@ -2657,17 +2657,17 @@
     },
     {
         "prefix": "mhm",
-        "creator": "",
+        "creator": " RaidinDawgZ - 7tv",
         "twitch": false,
         "theme": 1,
         "minimumSubTier": 0,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.36.1/emotes/690f52d51011d.gif",
-                "name": "690f52d51011d.gif",
+                "url": "https://cdn.destiny.gg/4.36.1/emotes/690525877185f.gif",
+                "name": "690525877185f.gif",
                 "mime": "image/gif",
-                "height": 36,
-                "width": 44
+                "height": 32,
+                "width": 37
             }
         ]
     },
