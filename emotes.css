@@ -1340,9 +1340,9 @@
     top: 8px;
 }
 .emote.KYSNOW {
-    background-image: url("6911efe3e4dfa.png");
+    background-image: url("6519126b12377.png");
     height: 32px;
-    width: 2164px;
+    width: 2100px;
 }
 .msg-chat .emote.KYSNOW {
     margin-top: -32px;
@@ -2285,7 +2285,7 @@
     top: 8px;
 }
 .emote.Shroomstiny {
-    background-image: url("6912296f94294.avif");
+    background-image: url("62509ec67821e.png");
     height: 28px;
     width: 32px;
 }
@@ -5887,24 +5887,7 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     transition: all .5s;
 }
 
-.msg-chat:has(.emote.BERN) .emote.KYSNOW {
-    width: 32px;
-    filter: none;
-    background-position: -2100px;
-    animation: KYSNOW-KAYA 1.55s steps(1) 1, KYSNOW-KAYA-glow 0.22s steps(1) 6;
-}
 
-@keyframes KYSNOW-KAYA {
-    13%, 29%, 45%, 61%, 69%, 75% { background-position: -2132px; }
-    19%, 35%, 50%, 67%, 79%  { background-position: -2100px; }
-}
-@keyframes KYSNOW-KAYA-glow {
-    50% { filter: brightness(1.5) contrast(1) drop-shadow(-10px -9px 15px #4488FF66) drop-shadow(10px 0px 10px #4488FF44) }
-}
-
-.msg-chat:has(.emote.BERN) .emote.KYSNOW:hover {
-    animation: none;
-}
 
 @keyframes KYSNOW-ANIM {
       0% {
@@ -7160,6 +7143,16 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
         transform: scaleY(1); transform-origin: bottom;
     }
 }
+/*@keyframes Shroomstiny-in-out {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);}100% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}}
+
+@keyframes Shroomstiny-anim {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}33% {-webkit-filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);}66% {-webkit-filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);}100% {-webkit-filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);}}
+
+@keyframes Shroomstiny-anim-hover {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}33% {-webkit-filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);}66% {-webkit-filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);}100% {-webkit-filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);}}
+
+.emote.Shroomstiny {animation: Shroomstiny-in-out 0.4s 1 linear, Shroomstiny-anim 3s 0.4s 2 linear, Shroomstiny-in-out 0.4s 6.4s 1 reverse linear;}
+
+.emote.Shroomstiny:hover {animation: Shroomstiny-anim-hover 3s infinite linear;}*/
+
 @keyframes Shroomstiny-anim { 100% { filter: hue-rotate(-360deg); } }
 .emote.Shroomstiny { animation: Shroomstiny-anim 4s linear 1; transition: all 4s ease-in-out; }
 .emote.Shroomstiny:hover { filter: hue-rotate(360deg); }
