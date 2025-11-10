@@ -1340,9 +1340,9 @@
     top: 8px;
 }
 .emote.KYSNOW {
-    background-image: url("6519126b12377.png");
+    background-image: url("6911efe3e4dfa.png");
     height: 32px;
-    width: 2100px;
+    width: 2164px;
 }
 .msg-chat .emote.KYSNOW {
     margin-top: -32px;
@@ -5887,7 +5887,24 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     transition: all .5s;
 }
 
+.msg-chat:has(.emote.BERN) {}.emote.KYSNOW {
+    width: 32px;
+    filter: none;
+    background-position: -2100px;
+    animation: KYSNOW-KAYA 1.55s steps(1) 1, KYSNOW-KAYA-glow 0.22s steps(1) 6;
+}
 
+@keyframes KYSNOW-KAYA {
+    13%, 29%, 45%, 61%, 69%, 75% { background-position: -2132px; }
+    19%, 35%, 50%, 67%, 79%  { background-position: -2100px; }
+}
+@keyframes KYSNOW-KAYA-glow {
+    50% { filter: brightness(1.5) contrast(1) drop-shadow(-10px -9px 15px #4488FF66) drop-shadow(10px 0px 10px #4488FF44) }
+}
+
+.msg-chat:has(.emote.BERN) .emote.KYSNOW:hover {
+    animation: none;
+}
 
 @keyframes KYSNOW-ANIM {
       0% {
