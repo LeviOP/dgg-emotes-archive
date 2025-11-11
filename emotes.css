@@ -3268,15 +3268,6 @@ transition:all 2s;
 .emote.BERN:hover {
     animation: BERN-shake-hover infinite 1.55s, BERN-anim-repeat1 1 steps(10) .5s, BERN-anim-repeat2 infinite steps(14) .7s .5s;
 }
-
-.msg-chat:has(.emote.KYSNOW) .emote.BERN::before {
-  background-image: url(data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUEAAAGGbWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAAAAAAAOcGl0bQAAAAAAAQAAACxpbG9jAAAAAEQAAAIAAQAAAAEAAAInAAABVAACAAAAAQAAAa4AAAB5AAAAQmlpbmYAAAAAAAIAAAAaaW5mZQIAAAAAAQAAYXYwMUNvbG9yAAAAABppbmZlAgAAAAACAABhdjAxQWxwaGEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAADDaXBycAAAAJ1pcGNvAAAAFGlzcGUAAAAAAAAAPAAAAB4AAAAQcGl4aQAAAAADCAgIAAAADGF2MUOBIAAAAAAAE2NvbHJuY2x4AAEADQAGgAAAAA5waXhpAAAAAAEIAAAADGF2MUOBABwAAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAeaXBtYQAAAAAAAAACAAEEAQKDBAACBAEFhgcAAAHVbWRhdBIACgYYFTvrCoAybUWQBhhQsuhaSqjZ4pO/CFI4I2jSe6ufRHm7veXC7wbYJ9+tHtxEmJjsddQImEUWQlv8N9a6rbZCp+xMD7zdU9YJ2yJ+VbKtbsfTtcC4TY/ewIwO3+g5cwBHW8uvJJuj7tlgvp44rjJO3SbzFsASAAoGOBU76wSAMscCFkAGGGGFAMlHnU61S+CKzn8kxrX+bnoh1nREUyrfdsUPnMRW62geMXDfHSvk7FQeIiIl+jyNAKJKZov/H+KtxAYCes4OmAomHSZ1Erp62VMc3sq75fr256zEYe/emP9oE8n2nHo10s1Y5qYuELuJM9bA+XoeWICUJh5suo/BLzmBkuoZGHYAow9ZzhPVyRok13eU9qc5QA928l4fYsoQjn424JsQ+grtBBRWD3wbvJV9OjDULRhd2qfLaKEcNjAdAWs1BMGKxVNhANaLRasozU0Fc55whzq9hCDYi293PM0j3zo1XEQLNO/thMHnYoUet9pKNskD0pN9vmu+ueIK57Jj2CVn/NrULgcepmpNZdS/CsL5oAyQ5vAo4YCyYakz6pqJ07Y2FuHPCofjrH3bUWO76pFKZhR62dulGDgu8NqpdsPGEfo4);
-  width: 60px;
-  height: 30px;
-  display: block;
-  content: "";
-  mix-blend-mode: luminosity;
-}
 @keyframes BibleThump-anim {
   0%, 100% {transform: scale(.9) translate(0px, 0px); animation-timing-function: ease;}
   50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
@@ -5896,26 +5887,22 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     transition: all .5s;
 }
 
-.msg-chat:has(.emote.BERN) .emote.KYSNOW,
-.msg-chat:has(.emote.MALARKEY) .emote.KYSNOW {
-    margin-right: -2px;
-    margin-left: -2px;
+.msg-chat:has(.emote.BERN) .emote.KYSNOW {
     width: 32px;
     filter: none;
     background-position: -2100px;
-    animation: KYSNOW-KAYA 1.4s steps(1) 1 0.13s, KYSNOW-KAYA-glow 0.25s steps(1) 5 0.1s;
+    animation: KYSNOW-KAYA 1.55s steps(1) 1, KYSNOW-KAYA-glow 0.22s steps(1) 6;
 }
 
 @keyframes KYSNOW-KAYA {
-    0%, 27%, 41%, 63%, 73%, 85%, 100% { background-position: -2132px; }
-    20%, 34%, 48%, 68%, 80%, 90% { background-position: -2100px; }
+    13%, 29%, 45%, 61%, 69%, 75% { background-position: -2132px; }
+    19%, 35%, 50%, 67%, 79%  { background-position: -2100px; }
 }
 @keyframes KYSNOW-KAYA-glow {
-    50% { filter: brightness(1.4) drop-shadow(-10px 0px 10px #FF553366) drop-shadow(10px 0px 15px #4488FF66); }
+    50% { filter: brightness(1.5) contrast(1) drop-shadow(-10px -9px 15px #4488FF66) drop-shadow(10px 0px 10px #4488FF44) }
 }
 
-.msg-chat:has(.emote.BERN) .emote.KYSNOW:hover,
-.msg-chat:has(.emote.MALARKEY) .emote.KYSNOW:hover {
+.msg-chat:has(.emote.BERN) .emote.KYSNOW:hover {
     animation: none;
 }
 
