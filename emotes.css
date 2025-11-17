@@ -331,6 +331,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.CheekerZ {
+    background-image: url("66596e319f7cc.png");
+    height: 30px;
+    width: 44px;
+}
+.msg-chat .emote.CheekerZ {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.Cheerstiny {
     background-image: url("660aa12bdf25a.png");
     height: 32px;
@@ -1705,15 +1714,6 @@
     width: 28px;
 }
 .msg-chat .emote.nathanPepe {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanSenpai {
-    background-image: url("665ade0e3628c.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanSenpai {
     margin-top: -28px;
     top: 7px;
 }
@@ -5845,43 +5845,29 @@ transform: rotate(2deg) translate(1px, 2px);
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
 @keyframes JustCantProveItYet-anim {
-  0% { background-position: 0px; }
-  100% { background-position: -6665px; }
+  to { background-position: -6622px; }
 }
 
 @keyframes JustCantProveItYet-hover {
-  0% { background-position: 0px; }
-  100% { background-position: -6665px; }
+  to { background-position: -6622px; }
 }
 
 .emote.JustCantProveItYet {
   width: 43px;
-  background-position: 43px;
-  background-size: 6665px 32px;
-  animation: JustCantProveItYet-anim 6s steps(155) 1;
+  animation: JustCantProveItYet-anim 6s steps(154) 1 forwards;
 }
 
 .emote.JustCantProveItYet:hover {
-  animation: JustCantProveItYet-hover 6s steps(155) infinite;
-}
-
-@keyframes JustCantProveItYet-combo {
-  0% { background-position: -3612px; }
-  100% { background-position: -6665px; }
-}
-
-@keyframes JustCantProveItYet-combo-hover {
-  0% { background-position: -3612px; }
-  100% { background-position: -6665px; }
+  animation: JustCantProveItYet-hover 6s steps(154) infinite forwards;
 }
 
 .msg-chat.msg-emote .emote.JustCantProveItYet {
-  background-position: -6622px;
-  animation: JustCantProveItYet-combo 3s steps(71) 4;
+  background-position: -3612px;
+  animation: JustCantProveItYet-anim 3s steps(70) 4 forwards;
 }
 
 .msg-chat.msg-emote .emote.JustCantProveItYet:hover {
-  animation: JustCantProveItYet-combo-hover 3s steps(71) infinite;
+  animation: JustCantProveItYet-hover 3s steps(70) infinite forwards;
 }
 .emote.KEIKAKU{
 width:31px; 
@@ -7084,24 +7070,20 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   width: 28px;
   height: 32px;
   background-position: left center; 
-  animation: POPPERS-anim 0.3s steps(2) 65;
+  animation: POPPERS-anim 0.3s steps(2) 65 -.14s;
 }
 
-      @keyframes POPPERS-anim {
-        to {
-          background-position: -56px;
-        }
-      }
+@keyframes POPPERS-anim {
+  to { background-position: -56px; }
+}
 
 .emote.POPPERS:hover {
-        animation: POPPERS-hover 0.3s steps(2) infinite;
+  animation: POPPERS-hover 0.3s steps(2) infinite;
 }
 
-      @keyframes POPPERS-hover {
-        to {
-          background-position: -56px;
-        }
-      }
+@keyframes POPPERS-hover {
+  to { background-position: -56px; }
+}
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
@@ -8045,11 +8027,11 @@ background-repeat:no-repeat;
 .emote.WEOW {
     height: 28px;
     width: 28px;
+    transition: ease-out .1s;
 }
 
 .emote.WEOW:hover {
-    filter: brightness(1.1) drop-shadow(0px 0px 3px #f7f7d7);
-    transition: ease-out .4s;
+    filter: brightness(1.1) drop-shadow(0px 0px 6px #f7f7f780);
 }
 
 /*
