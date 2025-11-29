@@ -138,6 +138,20 @@
   order: 50;
 }
 
+.flair.vip {
+  background-image: url("692a87791bf7c.png");
+  height: 20px;
+  width: 18px;
+  order: 50;
+}
+
+.flair.flair35 {
+  background-image: url("692a87b5ca02e.png");
+  height: 18px;
+  width: 18px;
+  order: 50;
+}
+
 .flair.flair11 {
   background-image: url("flair11.png");
   height: 16px;
