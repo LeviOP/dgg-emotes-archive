@@ -381,7 +381,7 @@
         "label": "Team YEE",
         "name": "flair36",
         "description": "YEE NEVA LOSE",
-        "hidden": false,
+        "hidden": true,
         "priority": 50,
         "color": "",
         "rainbowColor": false,
