@@ -369,8 +369,8 @@
         "rainbowColor": false,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.39.3/flairs/692a87b5ca02e.png",
-                "name": "692a87b5ca02e.png",
+                "url": "https://cdn.destiny.gg/4.39.3/flairs/69407ed2a253b.png",
+                "name": "69407ed2a253b.png",
                 "mime": "image/png",
                 "height": 18,
                 "width": 18
@@ -381,16 +381,16 @@
         "label": "Team YEE",
         "name": "flair36",
         "description": "YEE NEVA LOSE",
-        "hidden": true,
+        "hidden": false,
         "priority": 50,
         "color": "",
         "rainbowColor": false,
         "image": [
             {
-                "url": "https://cdn.destiny.gg/4.39.3/flairs/692a87791bf7c.png",
-                "name": "692a87791bf7c.png",
+                "url": "https://cdn.destiny.gg/4.39.3/flairs/69407ec0b0b45.png",
+                "name": "69407ec0b0b45.png",
                 "mime": "image/png",
-                "height": 20,
+                "height": 18,
                 "width": 18
             }
         ]
