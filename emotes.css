@@ -3616,16 +3616,6 @@ transition:all 2s;
        animation: RARE-EMERALD-PULSATE 3s infinite linear;
 }
 
-[data-username="iobobc"] .emote.Cabge {
-       animation: HIDE 10s infinite linear;
-       height: 0px;
-       width: 0px;
-}
-[data-username="yunidev"] .emote.Cabge {
-       height: 0px;
-       width: 0px;
-}
-
 @keyframes RARE-EMERALD-PULSATE {
     0% {
         transform: scale(1.05) rotate(0deg);
