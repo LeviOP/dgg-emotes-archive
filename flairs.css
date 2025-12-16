@@ -139,11 +139,14 @@
 }
 
 .flair.flair36 {
-  display: none !important;
+  background-image: url("69407ec0b0b45.png");
+  height: 18px;
+  width: 18px;
+  order: 50;
 }
 
 .flair.flair35 {
-  background-image: url("692a87b5ca02e.png");
+  background-image: url("69407ed2a253b.png");
   height: 18px;
   width: 18px;
   order: 50;
