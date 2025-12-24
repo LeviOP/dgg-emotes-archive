@@ -414,9 +414,9 @@
         ]
     },
     {
-        "label": "DGG Developer",
+        "label": "Dgg Developer",
         "name": "flair31",
-        "description": "Has made significant contributions to the DGG codebase",
+        "description": "Codes things for Dgg",
         "hidden": false,
         "priority": 50,
         "color": "",
