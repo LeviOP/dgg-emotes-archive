@@ -1249,15 +1249,6 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.ITSBECAUSEYOUREYELLING {
-    background-image: url("6982e1e9b783e.gif");
-    height: 32px;
-    width: 57px;
-}
-.msg-chat .emote.ITSBECAUSEYOUREYELLING {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ItsFine {
     background-image: url("66b1b204d51fc.png");
     height: 32px;
@@ -2202,15 +2193,6 @@
 .msg-chat .emote.POTATO {
     margin-top: -28px;
     top: 7px;
-}
-.emote.RAGEBAIT {
-    background-image: url("6982e3ab77646.png");
-    height: 32px;
-    width: 65px;
-}
-.msg-chat .emote.RAGEBAIT {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.RainbowPls {
     background-image: url("665ad21170a2a.png");
@@ -6136,15 +6118,6 @@ transform: rotate(2deg) translate(1px, 2px);
   to {
     background-position: -1656px;
   }
-}
-/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
-.emote.ITSBECAUSEYOUREYELLING {
-  display: inline-block;
-  animation: none;
-  transform: scale(0.80);
-  transform-origin: center center;
-  margin-left: -4px;   
-  margin-right: -4px;  
 }
 @keyframes JAMSTINY-anim {
   0% { transform: rotate(0deg); transform-origin: 50% 30px; }
