@@ -471,7 +471,7 @@
         "label": "League Master",
         "name": "flair30",
         "description": "An expert on League of Legends",
-        "hidden": true,
+        "hidden": false,
         "priority": 50,
         "color": "",
         "rainbowColor": false,
