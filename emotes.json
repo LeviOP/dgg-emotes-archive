@@ -3360,6 +3360,22 @@
         ]
     },
     {
+        "prefix": "PEEP",
+        "creator": "prsek",
+        "twitch": false,
+        "theme": 1,
+        "minimumSubTier": 0,
+        "image": [
+            {
+                "url": "https://cdn.destiny.gg/4.43.1/emotes/69863677969a6.png",
+                "name": "69863677969a6.png",
+                "mime": "image/png",
+                "height": 30,
+                "width": 30
+            }
+        ]
+    },
+    {
         "prefix": "peepoHug",
         "creator": "",
         "twitch": false,
