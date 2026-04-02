@@ -566,13 +566,13 @@
     top: 7.5px;
 }
 .emote.DANKMEMES {
-    background-image: url("66596f55973e2.png");
-    height: 30px;
-    width: 72px;
+    background-image: url("69cc7cd89a080.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.DANKMEMES {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DankWave {
     background-image: url("6683a33ce76e6.png");
@@ -2330,9 +2330,9 @@
     top: 8px;
 }
 .emote.SOY {
-    background-image: url("649f7767585f5.png");
+    background-image: url("660a9a8d1e119.png");
     height: 32px;
-    width: 37px;
+    width: 31px;
 }
 .msg-chat .emote.SOY {
     margin-top: -32px;
@@ -2905,15 +2905,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.DANKMOTIONOFTHEARM {
-    background-image: url("69cc7cd89a080.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DANKMOTIONOFTHEARM {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.dansaltman {
     background-image: url("69cc7cb2229f1.png");
     height: 31px;
@@ -2922,6 +2913,15 @@
 .msg-chat .emote.dansaltman {
     margin-top: -31px;
     top: 7.75px;
+}
+.emote.Darius {
+    background-image: url("69cda3e27a28d.png");
+    height: 32px;
+    width: 29px;
+}
+.msg-chat .emote.Darius {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DEATH_SUS {
     background-image: url("6090e31923c29.png");
@@ -2994,6 +2994,15 @@
 .msg-chat .emote.Hamster_Hawk {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.JAMMIES {
+    background-image: url("69cd15c9ea84f.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.JAMMIES {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.LiterallyStevenBonnellTheSecond {
     background-image: url("69cc88c859695.png");
@@ -4951,32 +4960,6 @@ transition:all 2s;
   to{ background-position: -1274px;}
 }
 
-@keyframes DANKMEMES-anim {
-    0%, 100% {
-        -webkit-filter: hue-rotate(0deg);
-        filter: hue-rotate(0deg);
-    }
-    50% {
-        -webkit-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-@keyframes DANKMEMES-anim-hover {
-    0%, 100% {
-        -webkit-filter: hue-rotate(0deg);
-        filter: hue-rotate(0deg);
-    }
-    50% {
-        -webkit-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-.emote.DANKMEMES {
-    animation: DANKMEMES-anim 1s 2;
-}
-.emote.DANKMEMES:hover {
-    animation: DANKMEMES-anim-hover 1s infinite;
-}
 .emote.Derpstiny.Derpstiny:hover {
   transition: all 0.5s;
   filter: brightness(1.25) drop-shadow(0px 0px 1px #ff0000)
@@ -7519,6 +7502,56 @@ background-repeat:no-repeat;
 .emote.SoDoge:hover::after {
         animation: SoDoge-hover-after infinite 1.28s 1.55s ease;  
 }
+.emote.SOY {
+  height: 32px;
+  width: 31px;
+  filter: brightness(1.15);
+}
+
+.emote.SOY+.emote.SOY,
+.emote.SOY:nth-child(1),
+.emote.Clap+.emote.SOY,
+.emote.BLADE+.emote.SOY{
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.SOY:only-child,
+.emote+.emote.SOY:last-of-type,
+.emote.SOY:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+.emote.SOY:only-child {
+  transform: scaleX(-1);
+}
+
+@keyframes GIGAHANDS-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.emote.GIGACHAD+.emote.SOY {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+
+.chat-user+.emote.SOY,
+.emote.SOY:has(+.externallink),
+.emote.SOY:has(+.chat-user) {
+  transform: scaleX(-1);
+}
+
+.chat-user+.emote.SOY:last-child {
+  transform: scaleX(1);
+}
+
 /* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
 .emote.SoyPoint {
   display: inline-block;
